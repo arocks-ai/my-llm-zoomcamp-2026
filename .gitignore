@@ -1,0 +1,23 @@
+# Environment variables and sensitive information
+.env
+*.env
+config.ini
+secrets.py
+credentials.json
+.envrc
+.venv
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.adk
+backup/
+backup
+*.db
+
+# 12-SelfExtendingAgent_ADKGoogle
+test_ddg.py
+test_gemini.py
+test_tavily.py
+

@@ -1,10 +1,9 @@
-import os
-import requests
-import json
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
-from minsearch import Index
+
+from ingest import fetch_documents, build_index
+
 
 # Load environment variables (GEMINI_API_KEY)
 load_dotenv()
@@ -29,43 +28,24 @@ Context:
 {context}
 """
 
-def fetch_documents():
-    """Fetches course FAQ documents from the DataTalks.Club JSON API."""
-    docs_url = "https://datatalks.club/faq/json/courses.json"
-    response = requests.get(docs_url)
-    courses_raw = response.json()
 
-    documents = []
-    url_prefix = "https://datatalks.club/faq"
-
-    for course in courses_raw:
-        course_url = f"{url_prefix}{course['path']}"
-        course_response = requests.get(course_url)
-        course_response.raise_for_status()
-        course_data = course_response.json()
-        documents.extend(course_data)
-    
-    return documents
-
-def setup_index(documents):
-    """Initializes and fits the search index with the provided documents."""
-    index = Index(
-        text_fields=["question", "section", "answer"],
-        keyword_fields=["course"]
-    )
-    index.fit(documents)
-    return index
 
 def search(query, index):
-    """Searches the index for relevant documents based on the query."""
-    boost_dict = {'question': 2.0, 'section': 0.4}
-    filter_dict = {'course': 'llm-zoomcamp'}
+    """Searches the index for relevant documents based on the query.
+       Filtering - based on llm-zoomcamp course
+       Ranking -  based on top K (or top 5) results
+    """
+
+    boost_dict = {'question': 2.0, 'section': 0.4}  
+    filter_dict = {'course': 'llm-zoomcamp'}        
+
+    # Get the Data source,, Used index instead of vector DB for now
 
     return index.search(
         query,
-        boost_dict=boost_dict,
-        filter_dict=filter_dict,
-        num_results=5
+        boost_dict=boost_dict,      # Weights adjustments, more weight for question,  1 for 100%
+        filter_dict=filter_dict,    # Filtering search (full match)
+        num_results=5               # Ranking
     )
 
 def build_context(search_results):
@@ -90,6 +70,7 @@ def build_prompt(question, search_results):
 
 def llm(prompt, model="gemini-2.5-flash-lite"):
     """Sends the prompt to the Gemini model and returns the text response."""
+
     # response = client.models.generate_content(
     #     model="gemini-2.5-flash-lite",
     #     contents=prompt,
@@ -117,6 +98,7 @@ def llm(prompt, model="gemini-2.5-flash-lite"):
 
 def rag(query, index):
     """Executes the complete Retrieval-Augmented Generation process."""
+
     search_results = search(query, index)
     prompt = build_prompt(query, search_results)
     answer = llm(prompt)
@@ -124,9 +106,10 @@ def rag(query, index):
 
 def main():
     """Main entry point to initialize the system and run a query."""
+
     print("Initializing FAQ Assistant...")
     documents = fetch_documents()
-    index = setup_index(documents)
+    index = build_index(documents)
     
     # query = "How to get the course completion certificate?"
     # query = "When does the next course starts"

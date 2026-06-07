@@ -3,6 +3,7 @@ import requests
 import json
 from dotenv import load_dotenv
 from google import genai
+from google.genai import types
 from minsearch import Index
 
 # Load environment variables (GEMINI_API_KEY)
@@ -84,14 +85,34 @@ def build_prompt(question, search_results):
         question=question,
         context=context
     )
-    return f"{INSTRUCTIONS.strip()}\n\n{prompt_body.strip()}"
+    #return f"{INSTRUCTIONS.strip()}\n\n{prompt_body.strip()}"
+    return f"{prompt_body.strip()}"
 
-def llm(prompt):
+def llm(prompt, model="gemini-2.5-flash-lite"):
     """Sends the prompt to the Gemini model and returns the text response."""
+    # response = client.models.generate_content(
+    #     model="gemini-2.5-flash-lite",
+    #     contents=prompt,
+    # )
+
     response = client.models.generate_content(
-        model="gemini-2.5-flash-lite",
         contents=prompt,
+        model=model,
+        # THE FIX: Isolate your system prompt rules here
+        config=types.GenerateContentConfig(
+            system_instruction=INSTRUCTIONS.strip()         # system_instruction is equivalant of developer role
+        )
     )
+
+    # Extract token metrics from the API response
+    input_tokens = response.usage_metadata.prompt_token_count
+    output_tokens = response.usage_metadata.candidates_token_count
+
+    # Calculate total cost based on Gemini 2.5 Flash-Lite pricing
+    total_cost = (input_tokens * (0.10 / 1_000_000)) + (output_tokens * (0.40 / 1_000_000))
+    print(f"API Cost for this call: ${total_cost:.8f}")
+
+
     return response.text
 
 def rag(query, index):

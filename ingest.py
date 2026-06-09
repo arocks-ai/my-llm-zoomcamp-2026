@@ -34,7 +34,7 @@ def build_index(documents):
     # # add all at once
     # index.fit(documents)                   # Generated inverted index kind of DS for fast search operations
 
-    # Simulate real time add one record at a time
+    # Simulate real time, add one record at a time
     for doc in documents:
         index.add(doc)
         print(f"""Added: {doc["question"][:60]}...""")
@@ -46,4 +46,16 @@ def build_index(documents):
     
     print(f"Number of documents = {index.count}")
     return index
+
+
+
+def main():
+    """Main entry point to initialize the system and run a query."""
+
+    print("Prepare data by Creating DB with FAQ information ...")
+    documents = fetch_documents()
+    index = build_index(documents)
+
+if __name__ == "__main__":
+    main()
 

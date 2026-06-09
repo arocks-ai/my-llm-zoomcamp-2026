@@ -1,0 +1,1787 @@
+[
+  {
+    "id": "fde155ddfb",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "I forgot if I registered, can I still join the zoomcamp?",
+    "answer": "You don't need to register, as registration is not mandatory. It is only used for gauging interest and collecting data for analytics. You can start learning and submitting homework without registering even while a cohort is “live”. There is no check against any registered list."
+  },
+  {
+    "id": "7f10dde6f8",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Is it going to be live? When?",
+    "answer": "The course videos are pre-recorded, and you can start watching the course right now.\n\nThe zoomcamps are spread out throughout the year. See the article [Guide to Free Online Courses at DataTalks Club](https://datatalks.club/blog/guide-to-free-online-courses-at-datatalks-club.html).\n\nWe will also occasionally have office hours — live sessions where we will answer your questions. The office hours sessions are recorded too.\n\nYou can see the office hours (playlist with year 20xx) as well as the pre-recorded course videos in the Course Channel’s Bookmarks and/or [DTC’s YouTube channel](https://www.youtube.com/@DataTalksClub/playlists)."
+  },
+  {
+    "id": "2d8b16c2a0",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Course - Can I still join the course after the start date?",
+    "answer": "Yes, even if you don't register, you're still eligible to submit the homeworks as long as the form is still open and accepting submissions.\n\nBe aware, however, that there will be deadlines for turning in the final projects. So don't leave everything to the last minute."
+  },
+  {
+    "id": "418e8948e7",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Course: How do I start?",
+    "answer": "No matter if you're with a 'live' cohort or following in self-paced mode, start by:\n\n- Reading pins and bookmarks on the course channel to see what things are where.\n\n  <{IMAGE:image_1}>\n\n  <{IMAGE:image_2}>\n\n- Reading the repository (bookmarked in channel) and watching the video lessons (playlist bookmarked in channel).\n\n- If you have questions, search the channel itself first; someone may have already asked and gotten a solution.\n\n- For the most Frequently Asked Questions, refer to this document:\n\n  <{IMAGE:image_3}>\n\n- If you don't want to read/skimmer/search the FAQ document, tag the `@ZoomcampQABot` when asking questions, and it will summarize answers from its knowledge base.\n\n- For generic, non-zoomcamp queries, consider using tools like ChatGPT, BingCopilot, or Google Gemini, especially for error messages.\n\n- Check if you're on track by checking the deadlines in the Course Management form for homework submissions.\n\nThe main difference if you're not in a \"live\" cohort is that responses to your questions might be delayed because fewer active students are online. This won't be an issue if you do your own due diligence by searching for answers first and reading the documentation of the library.\n\n- If you need to ask questions and the resources above haven't helped, follow the guidelines in the `asking-questions.md` document (bookmarked in channel) and also check the Pins."
+  },
+  {
+    "id": "46b6399b91",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Course - Can I still graduate when I didn’t complete homework for week x?",
+    "answer": "Yes"
+  },
+  {
+    "id": "b047f348bc",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Certificate - Can I follow the course in a self-paced mode and get a certificate?",
+    "answer": "No, you can only get a certificate if you finish the course with a “live” cohort. We don't award certificates for the self-paced mode. The reason is you need to peer-review capstone(s) after submitting a project. You can only peer-review projects at the time the course is running."
+  },
+  {
+    "id": "4deedf3100",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "What’s the difference between the 2023 and 2022 course?",
+    "answer": "The difference is the Orchestration and Monitoring modules. Those videos will be re-recorded to use Prefect. The rest should mostly be the same.\n\nAlso, all of the homeworks will be changed for the 2023 cohort."
+  },
+  {
+    "id": "99c8a70fdf",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Cohort: What’s the difference between the 2024 and 2023 course?",
+    "answer": "The difference is the Orchestration and Monitoring modules. Those videos will be re-recorded to use Mage-AI. The rest should mostly be the same.\n\nAdditionally, all of the homeworks will be changed for the 2024 cohort."
+  },
+  {
+    "id": "4c40b4805c",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Cohort: Will there be a 2024 Cohort? When will the 2024 cohort start?",
+    "answer": "Yes, it will start in May 2024."
+  },
+  {
+    "id": "50ebc48eea",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Cohort: I missed the current cohort, when is the next cohort scheduled for? Will there be a 202x cohort?",
+    "answer": "Please see the summary of all zoomcamps and their respective schedule at [this link](https://datatalks.club/blog/guide-to-free-online-courses-at-datatalks-club.html).\n\nNote that there's no guarantee the zoomcamps will be run indefinitely or that the same zoomcamps will be conducted every year."
+  },
+  {
+    "id": "edf5668d39",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Homework: What if my answer is not exactly the same as the choices presented?",
+    "answer": "Please choose the closest one to your answer. Also, do not post your answer in the course Slack channel."
+  },
+  {
+    "id": "90b9e103c7",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Homework: where can I find the schedule and/or deadlines of each homework assignment?",
+    "answer": "You can find the deadlines for each homework assignment in the course schedule or timeline provided at [https://courses.datatalks.club/mlops-zoomcamp-2024/](https://courses.datatalks.club/mlops-zoomcamp-2024/). The time is your own local time, as it has been automatically converted."
+  },
+  {
+    "id": "df10d8e0e7",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Homework: when is the homework due date?",
+    "answer": "Deadlines differ for participants in different time zones — the cutoff is midnight Berlin time on the published date, and whatever corresponds to that in your time zone. The exact deadline for each homework is shown on the homework submission page:\n\n[Homework Submission Page](https://courses.datatalks.club/mlops-zoomcamp-2024/homework/hw1)"
+  },
+  {
+    "id": "b1a18890f2",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Homework: Why is the experiment in question 6 taking so long to run? Should we use yellow taxi data, or green taxi data?",
+    "answer": "You might need to use the green taxi data rather than yellow taxi data. The preprocessing code provided with the homework expects green taxi data (even though the question specifies yellow taxi data). Using green taxi data seems to be the correct approach, based on similar questions. Note that there is no official confirmation of this yet (as of early morning, May 27th in Berlin)."
+  },
+  {
+    "id": "1497aabe44",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Homework: I am getting conflicts on server ports and cannot establish a connection to the MLflow server, why?",
+    "answer": "Your port (5000) may be in use by some other process. To resolve this:\n\n1. Run the following command to find out which process is using the port:\n\n   ```bash\n   lsof -i :5000\n   ```\n2. Either kill the process using that port or route to a different port. You can explicitly change the port with the following command:\n\n   ```bash\n   mlflow ui --backend-store-uri sqlite:///mlflow.db --port 5001\n   ```"
+  },
+  {
+    "id": "b7bd817c2a",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Homework 3, 2025 Cohort - Do I have to use MAGE as the orchestrator? Can I use any orchestrator I want?",
+    "answer": "You do not have to use MAGE or any specific orchestrator; it is totally up to you."
+  },
+  {
+    "id": "c842475338",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Homework: Just found this course, can I still submit homeworks?",
+    "answer": "To clarify on **late homework submissions**:\n\n- You cannot submit after the homework is scored, as the form is closed.\n- Once the form is closed (i.e., scored), no further submissions are possible.\n- You can check your code against the solution by reviewing the `homework.md` file.\n\nIf the due date has passed but the form is still \"Open/Submittable\":\n\n- This is considered a \"late homework submission,\" and the form is still editable.\n- Don’t forget to click the Update button to save any changes.\n\nPlease note, it's uncertain when the form will be closed as this process is currently manual."
+  },
+  {
+    "id": "dfb6836d0b",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Hi, is it too late to start the course, I have ML experience?",
+    "answer": "It really depends on how much time and effort you can dedicate to the project over the coming weeks. Since you're late for the homeworks and they aren't required for the certificate, it might make sense to focus on the projects. Even if the first attempt is a struggle, it will be the best preparation for a second attempt, should you need or want one."
+  },
+  {
+    "id": "a0de15febf",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Project: Are we free to choose our own topics for the final project?",
+    "answer": "Please pick up a problem you want to solve yourself. Potential datasets can be found on either Kaggle, Hugging Face, Google, AWS, or the UCI Machine Learning Datasets Repository. More links are documented in [datasets.md](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/projects/datasets.md). Please also read the [README.md in 07-project folder](https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/07-project)."
+  },
+  {
+    "id": "7ab6b70d2c",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Project: Is the capstone an individual or team project?",
+    "answer": "It is an individual project."
+  },
+  {
+    "id": "f6544a339e",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Project: For the final project, is it required to be put on the cloud?",
+    "answer": "You can get a few cloud points by using Kubernetes even if you deploy it only locally. Alternatively, you can use LocalStack to mimic AWS. Be sure you're clear on the [Evaluation Criteria](https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/07-project#evaluation-criteria)."
+  },
+  {
+    "id": "33700d36a3",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Homework and Leaderboard: what is the system for points in the course management platform?",
+    "answer": "After you submit your homework, it will be graded based on the number of questions in that particular homework. You can see how many points you have on the homework page at the top.\n\nIn the leaderboard, you will find the sum of all points you've earned, which include:\n\n- Points for Homeworks\n- Points for FAQs\n- Points for Learning in Public\n\nIf you submit something to the FAQ, you receive one point. For each Learning in Public link, you also get one point. Hover over the \"?\" for some explanations."
+  },
+  {
+    "id": "ae2520ab59",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "What exactly is a learning-in-public post?",
+    "answer": "They are content that you create about what you have learned on a specific topic. Some DOs and DON’Ts are explained by Alexey in the following video:\n\n[https://www.loom.com/share/710e3297487b409d94df0e8da1c984ce](https://www.loom.com/share/710e3297487b409d94df0e8da1c984ce)\n\nAnyone caught abusing and gaming the system will be publicly called out and have their points stripped so they don’t appear high on the Leaderboard (as of 18 June 2024)."
+  },
+  {
+    "id": "4c837a4be1",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Leaderboard: I am not on the leaderboard / how do I know which one I am on the leaderboard?",
+    "answer": "When you set up your account, you are automatically assigned a random name such as “Lucid Elbakyan.” Click on the \"Jump to your record on the leaderboard\" link to find your entry.\n\nTo see what your display name is, click on the **Edit Course Profile** button.\n\n<{IMAGE:image_1}>\n\n- The first field is your nickname/displayed name. Change it if you want to use your Slack username, GitHub username, or any other nickname to remain anonymous.\n- Unless you want \"Lucid Elbakyan\" on your certificate, it is mandatory that you change the second field to your official name as per your identification documents (passport, national ID card, driver's license, etc.). This is the name that will appear on your Certificate!"
+  },
+  {
+    "id": "896989c9f1",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Error: creating Lambda Function (...): InvalidParameterValueException: The image manifest, config or layer media type for the source image ... is not supported.",
+    "answer": "This error occurs when the Docker image you are using is a manifest list (multi-platform). AWS Lambda does not support manifest lists—it only accepts single-platform images with a standard image manifest.\n\n**Quick fix:** Build your Docker image using `docker buildx` and specify the platform explicitly.\n\n```bash\ndocker buildx build --platform linux/amd64 -t your-ecr-image:latest -f Dockerfile .\n```\n\nThis ensures the image is compatible with AWS Lambda. Also, make sure that you push your image using the `--platform` option."
+  },
+  {
+    "id": "c841197256",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Criteria for getting a certificate?",
+    "answer": "Finish the Capstone project."
+  },
+  {
+    "id": "5daddf3efc",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Is completion of Homework necessary for a certificate?",
+    "answer": "No.\n\nCan I submit the final project on the second attempt and still receive the certificate?\n\nYes, absolutely. It's your choice whether to submit one or two times; passing any one attempt is sufficient to earn the certificate."
+  },
+  {
+    "id": "0190b37350",
+    "course": "mlops-zoomcamp",
+    "section": "General Course-Related Questions",
+    "question": "Where do I find the updated homework playlist and cohort-specific info for the MLOps course?",
+    "answer": "All cohort-specific information (homework links, video playlist, deadlines, Slack channel) lives in the `cohorts/<year>/` folder of the course repo:\n\n[2025 Cohort Info](https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/cohorts/2025)\n\nReplace `2025` with the current year if you're following a later cohort."
+  },
+  {
+    "id": "e865d7adf7",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Can I submit and update my project attempt multiple times before the final deadline?",
+    "answer": "Yes, you can submit and update your project attempts multiple times before the final deadline.\n\n- It is advisable not to wait until the last minute. Submitting even a partially completed project early allows you to make improvements over time.\n- Continue adding improvements as needed until the final date.\n- Simply update the Git commit SHA to reflect changes.\n\n<{IMAGE:image_1}>"
+  },
+  {
+    "id": "cd806dd7d0",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Opening Jupyter in VSCode",
+    "answer": "You can install the Jupyter extension to open notebooks in VSCode."
+  },
+  {
+    "id": "1b29ba4c54",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Launching Jupyter notebook from codespace VM",
+    "answer": "When you are ready and have installed Anaconda, you can launch a Jupyter notebook in a new terminal with the following command:\n\n```bash\njupyter notebook\n```\n\nBe careful not to make any typos. For instance, entering \"jupyter-notebook\" will result in an error:\n\n```bash\nJupyter command `jupyter-notebook` not found.\n```"
+  },
+  {
+    "id": "db8427d6cf",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Configuring Github to work from the remote VM",
+    "answer": "In case you want to set up a GitHub repository (e.g., for homeworks) from a remote VM, you can follow these helpful tutorials:\n\n- **Setting up GitHub on AWS instance:** [Tutorial](https://gist.github.com/matthewoden/b29353e266c554e04be8ea2058bcc2a0)\n- **Setting up keys on AWS instance:** [GitHub Documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)\n\nOnce you complete these steps, you should be able to push to your repository successfully.\n\n**AWS Instance Note:**\n\nThe selected AWS instance may not be covered under the free tier due to its size or other factors. Here is what the AWS free tier includes:\n\n- Resizable compute capacity in the Cloud.\n- 750 hours per month of Linux, RHEL, or SLES t2.micro or t3.micro* instance, depending on the region.\n- 750 hours per month of Windows t2.micro or t3.micro* instance, depending on the region.\n- 750 hours per month of public IPv4 address regardless of the instance type.\n\n*Instances launch in Unlimited mode and may incur additional charges."
+  },
+  {
+    "id": "47d9cd9aca",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Opening Jupyter in AWS",
+    "answer": "Faced issue while setting up Jupyter Notebook on AWS. I was unable to access it from my desktop. (I am not using Visual Studio and hence faced problem)\n\n1. Run the following command:\n   \n   ```bash\n   jupyter notebook --generate-config\n   ```\n\n2. Edit the file `/home/ubuntu/.jupyter/jupyter_notebook_config.py` to add the following line:\n\n   ```python\n   NotebookApp.ip = '*'\n   ```"
+  },
+  {
+    "id": "23ed7bdf10",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "WSL: instructions",
+    "answer": "If you wish to use WSL on your Windows machine, here are the setup instructions:\n\n1. Install wget:\n   \n   ```bash\n   sudo apt install wget\n   ```\n\n2. Download Anaconda from the [Anaconda download page](https://www.anaconda.com/download#downloads) using the `wget` command:\n   \n   ```bash\n   wget <download-address>\n   ```\n\n3. Turn on Docker Desktop WSL 2:\n   \n   [Follow the instructions here](https://docs.docker.com/desktop/windows/wsl/#turn-on-docker-desktop-wsl-2).\n\n4. Clone the desired GitHub repository:\n   \n   ```bash\n   git clone <github-repository-address>\n   ```\n\n5. Install Jupyter:\n   \n   ```bash\n   pip3 install jupyter\n   ```\n\n6. Consider using Anaconda, which includes tools like PyCharm and Jupyter.\n\n7. Alternatively, download Miniforge for a lightweight, open-source version of conda that supports mamba for improved environment solving speed. The Texas Tech University High Performance Computing Center provides a detailed guide:\n   \n   [Installing Miniforge3 Guide by TTU HPCC](https://www.depts.ttu.edu/hpcc/userguides/application_guides/Miniforge.php)\n\n8. For Windows, install WSL via:\n    \n    ```bash\n    wsl --install\n    ```\n\n9. If Python shows as version 3.10 after installing Anaconda with Python 3.9, execute:\n    \n    ```bash\n    source .bashrc\n    ```\n    \n    If the issue persists, add the following to your PATH:\n    \n    ```bash\n    export PATH=\"<anaconda-install-path>/bin:$PATH\"\n    ```\n\nFor using VSCode with WSL, refer to [VSCode on WSL](https://code.visualstudio.com/docs/remote/wsl)."
+  },
+  {
+    "id": "2383fdd2f6",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Git: Created repo without .gitignore",
+    "answer": "If you created a repository without a .gitignore, follow these steps to add one:\n\n1. Open Terminal.\n2. Navigate to the location of your Git repository.\n3. Create a .gitignore file for your repository:\n\n   ```bash\n   touch .gitignore\n   ```\n\n4. Locate the .gitignore file. If you already have it, open it.\n5. Edit the .gitignore file and add the following lines:\n\n   ```plaintext\n   # Python\n   *.pyc\n   __pycache__/\n   *.py[cod]\n   *$\n   ```\n\n6. Save the changes to the .gitignore file.\n7. Commit the changes."
+  },
+  {
+    "id": "bcd4190972",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": ".gitignore: how-to",
+    "answer": "If you create a folder `data` and download datasets or raw files to your local repository, you might want to push all your code to a remote repository without including these files or folders. To achieve this, use a `.gitignore` file.\n\nFollow these steps to create a `.gitignore` file:\n\n1. Create an empty `.txt` file using a text editor or command line.\n2. Save as `.gitignore` (ensure you use the dot symbol).\n3. Add rules:\n   - `*.parquet` to ignore all Parquet files.\n   - `data/` to ignore all files in the `data` folder.\n\nFor more patterns, read the [GIT documentation](https://git-scm.com/docs/gitignore).\n\n<>{IMAGE:image_id}"
+  },
+  {
+    "id": "11a7ea6c2c",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "AWS: Suggestions",
+    "answer": "- Ensure when stopping an EC2 instance that it fully stops. Look for the status indicator: green (running), orange (stopping), and red (stopped). Refresh the page to confirm it shows a red circle and status as stopped.\n  \n- Note that stopping an EC2 instance might still incur charges, such as storage costs for uploaded data on an EBS volume.\n  \n- Consider setting up billing alerts to monitor costs. However, specific instructions for setting them up are not provided here."
+  },
+  {
+    "id": "1fa4030823",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "IBM Cloud an alternative for AWS",
+    "answer": "You can get an invitation code from Coursera and use it in your account to verify it. IBM Cloud offers different features.\n\n[IBM CLOUD - Coursera Free Feature Code 395 Days](https://www.youtube.com/watch?v=h_GdX6KtXjo1)"
+  },
+  {
+    "id": "9f6380d76b",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "AWS costs:",
+    "answer": "I am worried about the cost of keeping an AWS instance running during the course.\n\nWith the instance specified during working environment setup, if you remember to Stop Instance once you finish your work for the day, using that strategy, in a day with about 5 hours of work, you will pay around $0.40 USD, which will account for $12 USD per month. This seems to be an affordable amount.\n\nYou must remember that you will have a different public IP address every time you restart your instance, and you will need to edit your SSH Config file. It's worth the time though.\n\nAdditionally, AWS enables you to set up an automatic email alert if a predefined budget is exceeded. \n\n[Here is a tutorial to set this up](https://www.c-sharpcorner.com/article/set-up-an-iam-user-and-the-alert-for-budget-in-aws/).\n\nAlso, you can estimate the cost yourself using the [AWS pricing calculator](https://calculator.aws/#/). At the time of writing (20.05.2023), a t3a.xlarge instance with 2 hr/day usage (which translates to 10 hr/week and should be enough to complete the course) and 30GB EBS monthly cost is 10.14 USD.\n\nHere’s [a link to the estimate](https://calculator.aws/#/estimate?id=b24f75864e0af54cbfeeb6083e1c74c605923c65)."
+  },
+  {
+    "id": "ce2a690d31",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Is the AWS free tier enough for doing this course?",
+    "answer": "<{IMAGE:image_1}>\n\nFor many parts - yes. Some services like Kinesis are not in the AWS free tier, but you can use them locally with LocalStack."
+  },
+  {
+    "id": "5af20a05fe",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "AWS EC2: this site can’t be reached",
+    "answer": "When I click an open IP address in an AWS EC2 instance, I get an error: \"This site can’t be reached.\" What should I do?\n\nThis IP address is not meant to be opened in a browser. It is used to connect to the running EC2 instance via terminal. Use the following command from your local machine or a remote server:\n\n- Assume the IP address is `11.111.11.111`\n- The downloaded key name is `razer.pem` (ensure the key is moved to a hidden folder `.ssh`)\n- Your username is `user_name`\n\n```bash\nssh -i /Users/user_name/.ssh/razer.pem ubuntu@11.111.11.111\n```"
+  },
+  {
+    "id": "e04431f782",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Unprotected private key file!",
+    "answer": "After running the command:\n\n```bash\nssh -i ~/.ssh/razer.pem ubuntu@XX.XX.XX.XX\n```\n\nI encountered the error: \"unprotected private key file\". To resolve this issue, ensure the file permissions are correctly set by running the following command:\n\n```bash\nchmod 400 ~/.ssh/razer.pem\n```\n\nFor more detailed steps, see this [guide](https://99robots.com/how-to-fix-permission-error-ssh-amazon-ec2-instance/)."
+  },
+  {
+    "id": "af5f29b64f",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "AWS EC2 instance constantly drops SSH connection",
+    "answer": "My SSH connection to AWS cannot last more than a few minutes, whether via terminal or VS Code.\n\nMy config:\n\n```bash\nHost mlops-zoomcamp  # ssh connection calling name\nUser ubuntu  # username AWS EC2\nHostName <instance-public-IPv4-addr>  # Public IP, changes when instance is turned off.\nIdentityFile ~/.ssh/name-of-your-private-key-file.pem  # Private SSH key file path\nLocalForward 8888 localhost:8888  # Connecting to internal service\nStrictHostKeyChecking no\n```\n\nThe disconnection occurs whether I SSH via WSL2 or via VS Code, often after running some code like `import mlflow`.\n\nTo reconnect, I need to stop and restart the instance, which assigns a new IPv4 address.\n\nI've checked the steps at AWS's troubleshooting page: [AWS SSH Connection Errors](https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-resolve-ssh-connection-errors/)\n\nInbound rule should allow all IPs for SSH.\n\n**Expected Behavior:**\n\n- SSH connection should remain active while using the instance.\n- Should be able to reconnect if disconnected.\n\n- **Memory Issue**: Disconnections may occur if the instance runs out of memory. Use EC2's screenshot feature to troubleshoot. If it's an OS out-of-memory issue, consider:\n  - Using a higher compute VM with more RAM.\n  - Adding a swap file, which uses disk as a RAM substitute to prevent OOM errors.\n  - Follow Ubuntu's documentation: [Ubuntu Swap FAQ](https://help.ubuntu.com/community/SwapFaq).\n  - Alternatively, follow AWS documentation: [AWS Swap File](https://aws.amazon.com/premiumsupport/knowledge-center/ec2-memory-swap-file/).\n\n- **Timeout Issue**: If connections drop due to timeouts, add the following to your local `.ssh/config` file to ping every 50 seconds:\n\n  ```bash\n  ServerAliveInterval 50\n  ```"
+  },
+  {
+    "id": "cf068009f1",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "AWS EC2: How do I handle changing IP addresses on restart?",
+    "answer": "Every time I restart my EC2 instance, I receive a different IP and need to update the config file manually.\n\n**Solution:**\n\nYou can create a script to automatically update the IP address of your EC2 instance. Refer to this [guide](https://github.com/dimzachar/mlops-zoomcamp/blob/master/notes/Week_1/update_ssh_config.md) for detailed steps."
+  },
+  {
+    "id": "fb9846ce91",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "VS Code crashes when connecting to Jupyter",
+    "answer": "Make sure to use an instance with enough compute capabilities such as a `t2.xlarge`. You can check the monitoring tab in the EC2 dashboard to monitor your instance."
+  },
+  {
+    "id": "c670950570",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "My connection to my GCP VM instance keeps timing out when I try to connect",
+    "answer": "If you switched off the VM instance completely in GCP, the IP address may change when it switches back on. You need to update the `ssh_config` file with the new external IP address. This can be done in VS Code if you have the Remote-SSH extension installed.\n\n1. Open the command palette and type `Remote-SSH: Open SSH Configuration File…`.\n2. Select the appropriate `ssh_config` file.\n3. Edit the `HostName` to the correct IP address."
+  },
+  {
+    "id": "e8dbc40d0c",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "X has 526 features, but expecting 525 features",
+    "answer": "Error:\n\n```\nValueError: X has 526 features, but LinearRegression is expecting 525 features as input.\n```\n\nSolution:\n\nThe `DictVectorizer` creates an initial mapping for the features (columns). When calling the `DictVectorizer` again for the validation dataset, `transform` should be used as it will ignore features that it did not see when `fit_transform` was last called. For example:\n\n```python\nX_train = dv.fit_transform(train_dict)\n\nX_test = dv.transform(test_dict)\n```"
+  },
+  {
+    "id": "1695e67099",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Missing dependencies",
+    "answer": "If some dependencies are missing:\n\n<{IMAGE:image_1}>\n\nInstall the following packages:\n\n- `pandas`\n- `matplotlib`\n- `scikit-learn`\n- `fastparquet`\n- `pyarrow`\n- `seaborn`\n\n```bash\npip install -r requirements.txt\n```\n\nI have seen this error when using `pandas.read_parquet()`. The solution is to install `pyarrow` or `fastparquet` by running the following command in the notebook:\n\n```bash\n!pip install pyarrow\n```\n\n**Note:** If you’re using Conda instead of pip, install `fastparquet` rather than `pyarrow`, as it is much easier to install and it’s functionally identical to `pyarrow` for our needs."
+  },
+  {
+    "id": "b6197e7348",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "squared Option Not Available in mean_squared_error",
+    "answer": "The `mean_squared_error` function in scikit-learn no longer includes the `squared` parameter. To compute the Root Mean Squared Error (RMSE), use the dedicated function `root_mean_squared_error` from `sklearn.metrics` instead."
+  },
+  {
+    "id": "5c4e6ef8ca",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "No RMSE value in the options",
+    "answer": "The evaluation RMSE I get doesn’t figure within the options!\n\nIf you’re evaluating the model on the entire February data, try to filter outliers using the same technique you used on the train data (`0 ≤ duration ≤ 60`) and you’ll get an RMSE which is (approximately) in the options. Also, don’t forget to convert the columns' data types to `str` before using the `DictVectorizer`.\n\nAnother option:\n\n- Along with filtering outliers, additionally filter on null values by replacing them with `-1`. \n- You will get an RMSE which is (almost) the same as in the options.\n- Use the `.round(2)` method to round it to 2 decimal points.\n\n**Warning Deprecation**\n\nThe Python interpreter warns of modules that have been deprecated and will be removed in future releases while also suggesting how to update your code. For example:\n\n```bash\nC:\\ProgramData\\Anaconda3\\lib\\site-packages\\seaborn\\distributions.py:2619:\nFutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).\nwarnings.warn(msg, FutureWarning)\n```\n\nTo suppress the warnings, you can include this code at the beginning of your notebook:\n\n```python\nimport warnings\n\nwarnings.filterwarnings(\"ignore\")\n```"
+  },
+  {
+    "id": "885a92b3ee",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "How to replace distplot with histplot",
+    "answer": "To replace `sns.distplot` with `sns.histplot`, you can use the following syntax:\n\n```python\nsns.distplot(df_train[\"duration\"])\n```\n\nCan be replaced with:\n\n```python\nsns.histplot(\n    df_train[\"duration\"], kde=True,\n    stat=\"density\", kde_kws=dict(cut=3), bins=50,\n    alpha=.4, edgecolor=(1, 1, 1, 0.4),\n)\n```\n\nThis will give you an almost identical result."
+  },
+  {
+    "id": "84805fe2dd",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "KeyError: 'PULocationID'  or  'DOLocationID'",
+    "answer": "You need to replace the capital letter \"L\" with a small one \"l\"."
+  },
+  {
+    "id": "36182df492",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "ImportError: Unable to find a usable engine; tried using: ‘pyarrow’, ‘fastparquet’.",
+    "answer": "To resolve this error, run the following command:\n\n```bash\n!pip install pyarrow\n```\n\nAfter successfully installing, you can delete the command."
+  },
+  {
+    "id": "ac851e936b",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Reading large parquet files",
+    "answer": "When reading large parquet files, you might encounter the following error:\n\n```\nIndexError: index 311297 is out of bounds for axis 0 with size 131743\n```\n\nHere are some possible solutions:\n\n1. **Run as a Python Script:**\n   - Try executing your code as a standalone Python script instead of within Jupyter Notebook.\n\n2. **Use PySpark Library:**\n   - Consider using the PySpark library, which is optimized for handling large data files.\n\n3. **Read Parquet in Chunks:**\n   - You can read parquet files in chunks using the pyarrow library. Reference this [blog post](http://blog.clairvoyantsoft.com/efficient-processing-of-parquet-files-in-chunks-using-pyarrow-b315cc0c62f9) for more details.\n\nUsing these methods may help manage and process large parquet files more efficiently."
+  },
+  {
+    "id": "108295493e",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Kernel getting killed during assignment tasks on local",
+    "answer": "If the Jupyter notebook kernel gets killed repeatedly due to out-of-memory issues when converting a Pandas DataFrame to a dictionary or other memory-intensive steps, try using Google Colab as it offers more memory.\n\nHere's how you can proceed:\n\n1. **Upload the datasets** to Google Drive in the folder \"Colab Notebooks.\"\n\n2. **Mount the drive** on Colab:\n   \n   ```python\n   from google.colab import drive\n   drive.mount('/content/drive')\n   ```\n   \n3. **Pull the data** from uploaded tables in Colab:\n\n   ```python\n   df_jan = pq.read_table('/content/drive/My Drive/Colab Notebooks/yellow_tripdata_2023-01.parquet').to_pandas()\n   ```\n\n4. **Complete the assignment** in Colab.\n\n5. **Download the final assignment** to your local machine and copy it into the relevant repository."
+  },
+  {
+    "id": "575e56b819",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "What is the difference between label and one-hot encoding?",
+    "answer": "Two main encoding approaches are generally used to handle categorical data: label encoding and one-hot encoding.\n\n- **Label Encoding**: Assigns each categorical value an integer based on alphabetical order. Suitable for logical categorical data, such as a rating system or classification.\n\n- **One-Hot Encoding**: Creates new variables using 0s and 1s to represent original categorical data. Useful when there is no inherent order or logic to the categories.\n\n**Tools and Implementation**\n\n- **Sci-kit Learn**:\n  - Dictionary Vectorizer: Handles categorical data and generates arrays based on unique instances in a DataFrame or other data structures.\n  - `OneHotEncoder` class: Specifically for applying one-hot encoding.\n\n- **Pandas**:\n  - `pd.get_dummies()`: Similar functionality for one-hot encoding.\n\nNote: Sometimes resetting a dataset into objects is necessary to apply one-hot encoding, especially when there is logical structuring in the data that could influence label encoding, which can be limiting for some applications."
+  },
+  {
+    "id": "2d1c6920b6",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Distplot takes too long",
+    "answer": "First, remove the outliers (trips with unusual duration) before plotting."
+  },
+  {
+    "id": "886fddb311",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "RMSE on test set too high",
+    "answer": "RMSE on the test set was too high when hot encoding the validation set using a previously fitted `OneHotEncoder(handle_unknown='ignore')` on the training set. In contrast, `DictVectorizer` yielded the correct RMSE.\n\nIn principle, both transformers should behave identically when treating categorical features, especially in scenarios where there are no sequences of strings in each row (as in this week’s homework):\n\n- Features are put into binary columns encoding their presence (1) or absence (0).\n- Unknown categories are imputed as zeros in the hot-encoded matrix.\n\nThis discrepancy indicates that there might be a difference in how `OneHotEncoder` and `DictVectorizer` handle the data after fitting on the training set and applying to the validation set."
+  },
+  {
+    "id": "52d606a66e",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "ictVectorizerA: Alexey’s answer",
+    "answer": "In summary:\n\n- `pd.get_dummies` or One-Hot Encoding (OHE) can produce results in different orders and handle missing data differently, potentially causing train and validation sets to have different columns.\n- `DictVectorizer` will ignore missing values (during training) and new values (during validation) in datasets.\n\nOther sources:\n\n- [Data Science Stack Exchange](https://datascience.stackexchange.com/questions/9443/when-to-use-one-hot-encoding-vs-labelencoder-vs-dictvectorizor)\n- [Scikit-learn Feature Extraction](https://scikit-learn.org/stable/modules/feature_extraction.html)\n- [Alteryx: Encode Smarter](https://innovation.alteryx.com/encode-smarter/)\n\n<{IMAGE:image_id}>"
+  },
+  {
+    "id": "e107978d25",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Why did we not use OneHotEncoder(sklearn) instead of DictVectorizer?",
+    "answer": "There are several reasons for choosing DictVectorizer over OneHotEncoder:\n\n- **Simple One-Step Process**: DictVectorizer provides a straightforward method to encode both categorical and numerical features from dictionaries, outputting directly to a sparse matrix.\n- **Ideal for ML Pipelines**: The direct output in sparse matrix format makes DictVectorizer a good fit for machine learning pipelines without needing additional preprocessing.\n- **Use Cases**: \n  - Use **OneHotEncoder** if you need full control, are working with sklearn pipelines, or need to handle unknown categories safely.\n  - Use **DictVectorizer** when your data is in dictionary format (e.g., JSON or from APIs) and you aim for quick integration into the pipeline."
+  },
+  {
+    "id": "e8bd670973",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Clipping outliers",
+    "answer": "How to check that we removed the outliers?\n\nUse the pandas function `describe()` which can provide a report of the data distribution along with the statistics to describe the data. For example, after clipping the outliers using a boolean expression, the min and max can be verified using:\n\n```python\n df['duration'].describe()\n```\n\n<{IMAGE:image_1}>"
+  },
+  {
+    "id": "63fb307920",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Replacing NaNs for pickup location and drop off location with -1 for One-Hot Encoding",
+    "answer": "`pd.get_dummies` and `DictVectorizer` both create a one-hot encoding on string values. Therefore, you need to convert the values in `PUlocationID` and `DOlocationID` to string.\n\nIf you convert the values in `PUlocationID` and `DOlocationID` from numeric to string, the NaN values get converted to the string \"nan\". With `DictVectorizer`, the RMSE is the same whether you use \"nan\" or \"-1\" as the string representation for the NaN values. Therefore, the representation doesn't have to be \"-1\" specifically; it could also be some other string."
+  },
+  {
+    "id": "663dda52c8",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Slightly different RMSE",
+    "answer": "**Problem:** My LinearRegression RMSE is very close to the answer but not exactly the same. Is this normal?\n\n**Answer:** No, LinearRegression is a deterministic model; it should always output the same results when given the same inputs.\n\n**Check the Following:**\n\n- Ensure outliers are properly treated in both the train and validation sets.\n- Verify that one-hot encoding is correctly applied by inspecting the shape of the one-hot encoded feature matrix. If it shows 2 features, there may be an issue.\n  - Hint: Convert drop-off and pick-up codes to the proper data format before fitting with `DictVectorizer`."
+  },
+  {
+    "id": "148d5d0ed7",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Extremely low RMSE",
+    "answer": "**Problem:** I’m facing an extremely low RMSE score (e.g., 4.3451e-6) - what should I do?\n\n**Answer:**\n\n- Recheck your code to see if your model is inadvertently learning the target before making predictions.\n- Ensure that the target variable is not included as a parameter while fitting the model. Including it can result in misleadingly low scores.\n- Verify that `X_train` does not contain any part of your `y_train`. This applies to the validation set as well.\n- Adjust your data handling to avoid data leakage between your features and the target."
+  },
+  {
+    "id": "8f917f3f3e",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Enabling Auto-completion in Jupyter Notebook",
+    "answer": "**Problem:** How to enable auto-completion in Jupyter Notebook? Tab doesn’t work.\n\n**Solution:**\n\nYou can enable auto-completion by running the following command:\n\n```bash\n!pip install --upgrade jedi==0.17.2\n```"
+  },
+  {
+    "id": "1913720953",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Downloading the data from the NY Taxis datasets gives error: 403 Forbidden",
+    "answer": "Problem: While following the steps in the videos, you may encounter a 403 Forbidden error when trying to download files using `wget`.\n\nSolution:\n\n- The issue occurs because the links point to files on cloudfront.net. An example of such a link is:\n  ```\n  https://d37ci6vzurychx.cloudfront.net/trip+data/green_tripdata_2021-01.parquet\n  ```\n\n- Instead of downloading the dataset directly from the link, use the dataset URL in your file.\n\n- Update (27-May-2023):\n  - You can now download the data from the official NYC trip record page: [TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page).\n  - Go to the page, right-click, and use \"copy link\" to get the URL since the URL provided might change if NYC updates their system.\n\n- Example command:\n  ```bash\n  wget https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2021-01.parquet\n  ```"
+  },
+  {
+    "id": "d99433c04b",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Using PyCharm & Conda env in remote development",
+    "answer": "**Problem:** PyCharm (remote) doesn’t see the conda execution path, preventing the use of a conda environment located on a remote server.\n\n**Solution:**\n\n1. On the remote server's command line, run:\n   \n   ```bash\n   conda activate envname\n   ```\n   \n2. Then, execute:\n   \n   ```bash\n   which python\n   ```\n   \n   This will provide the Python execution path.\n   \n3. Use this path to add a new interpreter in PyCharm:\n   \n   - Add local interpreter.\n   - Select system interpreter.\n   - Enter the path obtained from the previous step."
+  },
+  {
+    "id": "afdcab5249",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Running out of memory",
+    "answer": "**Problem:** The output of DictVectorizer was consuming too much memory, causing an inability to fit the linear regression model before running out of memory on a 16 GB machine.\n\n**Solution:**\n\n- In the example for DictVectorizer on the scikit-learn [website](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.DictVectorizer.html), the parameter `sparse` is set as `False`. While this helps with viewing results, it greatly increases memory usage.\n- To address this, either set `sparse=True`, or leave it at the default setting, which is also `True`. \n\nBy using `sparse=True`, memory usage will be reduced, allowing for more efficient model fitting."
+  },
+  {
+    "id": "4aa018f478",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Activating Anaconda env in .bashrc",
+    "answer": "**Problem:** Installing Anaconda didn’t modify the `.bashrc` profile. This means the Anaconda environment was not activated after exiting and relaunching the Unix shell.\n\n**Solution:**\n\n- **For Bash:**\n  - Initiate conda again, which will add entries for Anaconda in the `.bashrc` file.\n  \n  ```bash\n  cd YOUR_PATH_ANACONDA/bin \n  ./conda init bash\n  ```\n  \n  - This will automatically edit your `.bashrc`.\n\n- **Reload:**\n  \n  ```bash\n  source ~/.bashrc\n  ```"
+  },
+  {
+    "id": "3f9286329a",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "The feature size is different for training set and validation set",
+    "answer": "While working through HW1, you may notice that the feature sizes for the training and validation datasets are different. This issue often arises when using the incorrect method with a dictionary vectorizer.\n\nEnsure you use the `transform` method on the premade dictionary vectorizer instead of `fit_transform`. Since you already have the dictionary vectorizer created, there's no need to execute the fit pipeline on the model."
+  },
+  {
+    "id": "e00d5b3f65",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Permission denied (publickey) Error (when you remove your public key on the AWS machine)",
+    "answer": "If you encounter a \"Permission denied (publickey)\" error after removing your public key from an AWS machine, follow these steps:\n\n1. Access your machine via Session Manager to recreate your public key. Refer to the guide for more details: [Fix Permission Denied Errors](https://repost.aws/knowledge-center/ec2-linux-fix-permission-denied-errors).\n\n2. To retrieve your old public key, use this command:\n   \n   ```bash\n   ssh-keygen -y -f /path_to_key_pair/my-key-pair.pem\n   ```\n\n   Replace `/path_to_key_pair/my-key-pair.pem` with the actual path to your key pair.\n\n3. For additional instructions on retrieving the public key, consult the AWS documentation: [Retrieving the Public Key](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/describe-keys.html#retrieving-the-public-key)."
+  },
+  {
+    "id": "3b76daefb2",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Overfitting: Absurdly high RMSE on the validation dataset",
+    "answer": "**Problem:** The February dataset has been used as a validation/test dataset and stripped of the outliers in a similar manner to the train dataset (taking only the rows for the duration between 1 and 60, inclusive). The RMSE obtained afterward is in the thousands.\n\n**Solution:**\n\n- Ensure that the sparse matrix result from `DictVectorizer` is not turned into an `ndarray`. After removing that part of the code, a correct result was achieved.\n\n<{IMAGE:image_id}>\n\nIf there are further issues, carefully review each preprocessing step to ensure consistency between training and validation datasets."
+  },
+  {
+    "id": "c29959db3a",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Can’t import sklearn",
+    "answer": "If you encounter an error when trying to import sklearn, specifically:\n\n```python\nfrom sklearn.feature_extraction import DictVectorizer\n```\n\nYou can resolve it by installing scikit-learn with the following command:\n\n```bash\n!pip install scikit-learn\n```"
+  },
+  {
+    "id": "1bc7beaf5d",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Install docker in WSL2 without installing Docker Desktop",
+    "answer": "If you want to install Docker in WSL2 on Windows without Docker Desktop, follow these steps:\n\n1. **Install Docker**\n\n   You can ignore the warnings during installation.\n   \n   ```bash\n   curl -fsSL https://get.docker.com -o get-docker.sh\n   sudo sh get-docker.sh\n   ```\n   \n2. **Add Your User to the Docker Group**\n   \n   ```bash\n   sudo usermod -aG docker $USER\n   ```\n\n3. **Enable the Docker Service**\n   \n   ```bash\n   sudo systemctl enable docker.service\n   ```\n\n4. **Test the Installation**\n\n   Verify that both Docker and Docker Compose are installed successfully.\n   \n   ```bash\n   docker --version\n   docker compose version\n   docker run hello-world\n   ```\n\n5. **Ensure Docker Starts Automatically**\n   \n   If the service does not start automatically after restarting WSL, update your `.profile` or `.zprofile` file with:\n   \n   ```bash\n   if grep -q \"microsoft\" /proc/version > /dev/null 2>&1; then\n      if service docker status 2>&1 | grep -q \"is not running\"; then\n         wsl.exe --distribution \"${WSL_DISTRO_NAME}\" --user root \\\n         --exec /usr/sbin/service docker start > /dev/null 2>&1\n      fi\n   fi\n   ```"
+  },
+  {
+    "id": "8894361030",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Zero elements in sparse matrix (AKA when dictionary vectorizer / categorical X transformation fails)",
+    "answer": "Seeing a message like:\n\n```\n<2855951x515 sparse matrix of type '<class 'numpy.float64'>' with 0 stored elements in Compressed Sparse Row format>\n```\n\nThis issue might occur because your variables, intended for vectorization, were imported as floating point numbers rather than integers. This can lead to nonsensical models. To resolve this, convert your data with the following code (assuming `dg` is your dataframe and `categorical` stores the names of your variables to be vectorized):\n\n```python\ndg[categorical] = dg[categorical].round(0).astype(int).astype(str)\n```"
+  },
+  {
+    "id": "866d3bbbed",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Using a docker image as development environment (Linux)",
+    "answer": "If you don’t want to install Anaconda locally and prefer not to use Codespace or a VPS, you can create and run a Docker image locally.\n\nFor this, use the following `Dockerfile`:\n\n```dockerfile\nFROM docker.io/bitnami/minideb:bookworm\n\nRUN install_packages wget ca-certificates vim less silversearcher-ag\n\n# Uncomment the `COPY` and comment the `RUN` line if you have downloaded anaconda manually\n# I did this to save bandwidth when experimenting with the image creation\n\nRUN wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh && bash Anaconda3-2022.05-Linux-x86_64.sh -b -p /opt/anaconda3\n\n#COPY Anaconda3-2022.05-Linux-x86_64.sh /tmp/Anaconda3-2022.05-Linux-x86_64.sh\n\nRUN bash /tmp/Anaconda3-2022.05-Linux-x86_64.sh -b -p /opt/anaconda3 && \\\n    rm /tmp/Anaconda3-2022.05-Linux-x86_64.sh\n\nENV PATH=\"/opt/anaconda3/bin:$PATH\" \\\n    HOME=\"/app\"\n\nEXPOSE 8888\n\nWORKDIR /app\n\nUSER 1001\n\nENTRYPOINT [ \"jupyter\", \"notebook\", \"--ip\", \"0.0.0.0\" ]\n```\n\nBuild the image using:\n\n```bash\ndocker build -f Dockerfile -t mlops:v0 .\n```\n\nThen you can run it with:\n\n```bash\nmkdir app\nchmod -R 777 app\ndocker run --name jupyter -p 8888:8888 -v ./app:/app mlops:v0\n```\n\nIn the logs, you will see the Jupyter URL needed to access the environment. The files you create will be stored in the `app` directory."
+  },
+  {
+    "id": "fd2cad423e",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Use uv as a package manager",
+    "answer": "There is an option to run the project without Anaconda while easily managing multiple Python versions on your machine. The new package manager, `uv`, is a fast and efficient one written in Rust. It's recommended for use in Python projects overall. [Install guide](https://docs.astral.sh/uv/getting-started/installation/)\n\n```bash\nuv venv --python 3.9.7 # install python 3.9.7 used in the course\n\nsource .venv/bin/activate # activate the environment\n\npython -V # should be 3.9.7\n\nuv pip install pandas scikit-learn notebook seaborn pyarrow # install required packages\n\njupyter notebook # run jupyter notebook\n```\n\nCleanup is straightforward. Deactivate the environment and delete the folder:\n\n```bash\ndeactivate\n\nrm -rf .venv\n```"
+  },
+  {
+    "id": "f346d2cc80",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "I get `TypeError: got an unexpected keyword argument 'squared'` when using `mean_squared_error(..., squared=False)`. Why?",
+    "answer": "The `squared` parameter was added in scikit-learn 0.22. In earlier versions, it is not recognized, which causes the `TypeError`.\n\nTo compute RMSE in older versions:\n\n- Use `np.sqrt(mean_squared_error(...))`.\n\nIn scikit-learn 1.0 and later, you can use:\n\n```python\nfrom sklearn.metrics import root_mean_squared_error as rmse\n\nrmse_value = root_mean_squared_error(y_train, y_pred)\n\nprint('RMSE:', rmse_value)\n```\n\nThis approach is more explicit and convenient."
+  },
+  {
+    "id": "0d2700ae06",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Visualizing outliers in large datasets with Seaborn: Boxplot vs Histplot",
+    "answer": "`seaborn.boxplot` is generally faster because it uses a smaller set of summary statistics (min, Q1, median, Q3, max) to represent the data, which requires less computational effort, especially for large datasets.\n\n`seaborn.histplot` can be slower, particularly with large datasets, because it needs to bin the data and compute frequency counts for each bin, which involves more processing.\n\nSo, if speed is a concern, especially with large datasets, boxplots are typically faster than histograms."
+  },
+  {
+    "id": "a55ee615db",
+    "course": "mlops-zoomcamp",
+    "section": "Module 1: Introduction",
+    "question": "Reading parquet files with Pandas (pyarrow dependency)",
+    "answer": "A module that was compiled using NumPy 1.x cannot be run in NumPy 2.2.4 as it may crash.\n\n```\nAttributeError: module 'pyarrow' has no attribute '__version__'\n```\n\nDowngrade the version of your numpy:\n\n```bash\npip uninstall numpy -y\n\nconda remove numpy --force\n\nconda clean --all -y\n\nconda install numpy=1.26 -y\n```"
+  },
+  {
+    "id": "92ff36d48e",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Kernel died during Model Training on Github Codespaces",
+    "answer": "While training the model in Jupyter Notebook on GitHub Codespaces, the Jupyter kernel may die. To resolve this, upgrade the machine type in Codespaces from 8 cores to 14 cores. It is free to upgrade, but be aware that you will use more hours."
+  },
+  {
+    "id": "d4b4db8e70",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Do we absolutely need to save data to disk? Can we use it directly from download?",
+    "answer": "Yes, you can use data directly from a URL without saving it to disk. For example, you can use Pandas to read data from a URL:\n\n[Read more in the Pandas documentation](https://pandas.pydata.org/docs/reference/api/pandas.read_parquet.html)"
+  },
+  {
+    "id": "e75e477ce2",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Access Denied at Localhost:5000 - Authorization Issue",
+    "answer": "Localhost:5000 Unavailable // Access to Localhost Denied // You don’t have authorization to view this page (127.0.0.1:5000)\n\nIf you are using Chrome, follow these steps:\n\n1. Navigate to `chrome://net-internals/#sockets`.\n2. Press \"Flush Socket Pools\".\n\n<{IMAGE:image_1}>"
+  },
+  {
+    "id": "186389973c",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Connection in use: ('127.0.0.1', 5000)",
+    "answer": "You have something running on the 5000 port. You need to stop it. Here are some ways to resolve the issue:\n\n- **Using Terminal on Mac**:\n  1. Run the command:\n     ```bash\n     ps -A | grep gunicorn\n     ```\n  2. Identify the process ID (the first number after running the command).\n  3. Kill the process using the ID:\n     ```bash\n     kill 13580\n     ```\n     where `13580` represents the process number.\n\n  <{IMAGE:image_1}>\n\n- **To Kill All Processes Using Port 5000**:\n  ```bash\n  sudo fuser -k 5000/tcp\n  ```\n\n- **Alternative Command to Kill the Running Port**:\n  ```bash\n  kill -9 $(ps -A | grep python | awk '{print $1}')\n  ```\n\n- **Change to a Different Port**:\n  ```bash\n  mlflow ui --backend-store-uri sqlite:///mlflow.db --port 5001\n  ```\n\nFor more information, refer to the [source](https://stackoverflow.com/questions/60531166/how-to-safely-shutdown-mlflow-ui#:~:text=I%20also%20met%20a%20similar,and%20kill%20%5BPID%5D%20manually)."
+  },
+  {
+    "id": "3a2a22f115",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Could not convert string to float - ValueError",
+    "answer": "Running `python register_model.py` results in the following error:\n\n```python\nValueError: could not convert string to float: '0 int\\n1   float\\n2     hyperopt_param\\n3       Literal{n_estimators}\\n4       quniform\\n5         Literal{10}\\n6         Literal{50}\\n7         Literal{1}'\n```\n\n**Full Traceback:**\n\n```python\nTraceback (most recent call last):\n\nFile \"/Users/name/Desktop/Programming/DataTalksClub/MLOps-Zoomcamp/2. Experiment tracking and model management/homework/scripts/register_model.py\", line 101, in <module>\n\nrun(args.data_path, args.top_n)\n\nFile \"/Users/name/Desktop/Programming/DataTalksClub/MLOps-Zoomcamp/2. Experiment tracking and model management/homework/scripts/register_model.py\", line 67, in run\n\ntrain_and_log_model(data_path=data_path, params=run.data.params)\n\nFile \"/Users/name/Desktop/Programming/DataTalksClub/MLOps-Zoomcamp/2. Experiment tracking and model management/xfsub/scripts/register_model.py\", line 41, in train_and_log_model\n\nparams = space_eval(SPACE, params)\n\nFile \"/Users/name/miniconda3/envs/mlops-zoomcamp/lib/python3.9/site-packages/hyperopt/fmin.py\", line 618, in space_eval\n\nrval = pyll.rec_eval(space, memo=memo)\n\nFile \"/Users/name/miniconda3/envs/mlops-zoomcamp/lib/python3.9/site-packages/hyperopt/pyll/base.py\", line 902, in rec_eval\n\nrval = scope._impls[node.name](*args, **kwargs)\n\nValueError: could not convert string to float: '0 int\\n1   float\\n2     hyperopt_param\\n3       Literal{n_estimators}\\n4       quniform\\n5         Literal{10}\\n6         Literal{50}\\n7         Literal{1}'\n```\n\n**Solution:**\n\nThere are two plausible errors related to the `hpo.py` file where hyper-parameter tuning is run. The objective function should be structured as follows:\n\n1. Ensure the `with` statement and the `log_params` function are correctly applied to log all runs and parameters:\n\n    ```python\n    def objective(params):\n        with mlflow.start_run():\n            mlflow.log_params(params)\n            rf = RandomForestRegressor(**params)\n            rf.fit(X_train, y_train)\n            y_pred = rf.predict(X_valid)\n            rmse = mean_squared_error(y_valid, y_pred, squared=False)\n            mlflow.log_metric('rmse', rmse)\n    ```\n\n2. Add the `with` statement immediately before the function, just after:\n\n    ```python\n    X_valid, y_valid = load_pickle(os.path.join(data_path, \"valid.pkl\"))\n    ```\n\n3. Log parameters just after defining the `search_space` dictionary:\n\n    ```python\n    search_space = {....}\n    mlflow.log_params(search_space)\n    ```\n\nLogging parameters in groups can lead to issues because `register_model.py` expects to receive parameters individually. Ensure the objective function matches the example above."
+  },
+  {
+    "id": "42e6f685af",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Experiment not visible in MLflow UI",
+    "answer": "<{IMAGE:image_1}>\n\n<{IMAGE:image_2}>\n\n<{IMAGE:image_3}>\n\nMake sure you launch the MLflow UI from the same directory as the code that is running the experiments (the same directory that contains the `mlruns` directory and the database that stores the experiments).\n\nOr, navigate to the correct directory when specifying the `tracking_uri`.\n\nFor example:\n\n- If the `mlflow.db` is in a subdirectory called `database`, the tracking URI would be:\n  ```python\n  sqlite:///database/mlflow.db\n  ```\n  \n- If the `mlflow.db` is a directory above your current directory, the tracking URI would be:\n  ```python\n  sqlite:///../mlflow.db\n  ```\n\nAnother alternative is to use an absolute path to `mlflow.db` rather than a relative path.\n\nYou can also launch the UI from the same notebook by executing the following code cell:\n\n```python\nimport subprocess\n\nMLFLOW_TRACKING_URI = \"sqlite:///data/mlflow.db\"\n\nsubprocess.Popen([\"mlflow\", \"ui\", \"--backend-store-uri\", MLFLOW_TRACKING_URI])\n```\n\nThen, use the same `MLFLOW_TRACKING_URI` when initializing MLflow or the client:\n\n```python\nfrom mlflow.tracking import MlflowClient\n\nclient = MlflowClient(tracking_uri=MLFLOW_TRACKING_URI)\n\nmlflow.set_tracking_uri(MLFLOW_TRACKING_URI)\n```"
+  },
+  {
+    "id": "ac12e26845",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Metrics not visible in mlflow UI",
+    "answer": "I encountered the following issue: I was able to run experiments and the different model parameters were visible. However, the metrics, including the “handmade” metric `rmse` in the training script, were not visible (empty field).\n\nI solved my problem by making sure to specify the “key” and “value” explicitly when using `mlflow.log_metric`:\n\n```python\nmlflow.log_metric(key=\"rmse\", value=rmse)\n```"
+  },
+  {
+    "id": "aed2f8ddb9",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Unable to create new Experiment",
+    "answer": "Following the instructions in the video did not work, even though the Jupyter notebook indicates it was successfully created.\n\n<{IMAGE:image_1}>\n\nIt is recommended to set the URI to the listener directly. This discrepancy might be due to differences in the \"mlflow\" package versions between the video and the latest version we are using. The documentation for the latest \"mlflow\" package suggests setting the URI as follows:\n\n```python\nmlflow.set_tracking_uri(uri=\"http://127.0.0.1:5000\")\n```"
+  },
+  {
+    "id": "c47c3317f6",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Hash Mismatch Error with Package Installation",
+    "answer": "When attempting to install MLFlow using `pip install mlflow`, an error occurs related to a hash mismatch for the Numpy package:\n\n```plaintext\nERROR: THESE PACKAGES DO NOT MATCH THE HASHES FROM THE REQUIREMENTS FILE.\n```\n\nDuring the installation on 27th May 2022, the following occurred while Numpy was being installed:\n\n```\nCollecting numpy\n  Downloading numpy-1.22.4-cp310-cp310-win_amd64.whl (14.7 MB)\n  |██████████████              | 6.3 MB 107 kB/s eta 0:01:19\nERROR: THESE PACKAGES DO NOT MATCH THE HASHES FROM THE REQUIREMENTS FILE.\nIf you have updated the package versions, please update the hashes. Otherwise, examine the package contents carefully; someone may have tampered with them.\n```\n\n- **Expected SHA256**: `3e1ffa4748168e1cc8d3cde93f006fe92b5421396221a02f2274aab6ac83b077`\n- **Got**: `15e691797dba353af05cf51233aefc4c654ea7ff194b3e7435e6eec321807e90`\n\n1. **Install Numpy Separately**:\n   \n   - Try installing Numpy separately using:\n     \n     ```bash\n     pip install numpy\n     ```\n   \n2. **Install MLFlow**:\n\n   - After successfully installing Numpy, proceed with reinstalling MLFlow:\n     \n     ```bash\n     pip install mlflow\n     ```\n\nThis approach resolved the issue in this instance, although the problem may not be consistently reproducible. Be aware that similar hash mismatch errors might occur during package installations."
+  },
+  {
+    "id": "2dab05f2be",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "How to Delete an Experiment Permanently from MLFlow UI",
+    "answer": "After deleting an experiment from the UI, it may still persist in the database. To delete this experiment permanently, follow these steps:\n\n1. **Install `ipython-sql`**\n   \n   ```bash\n   pip install ipython-sql\n   ```\n\n2. **Load SQL Magic Scripts in Jupyter Notebook**\n\n   ```python\n   %load_ext sql\n   ```\n\n3. **Load the Database**\n   \n   Replace `nameofdatabase.db` with your actual database name:\n\n   ```python\n   %sql sqlite:///nameofdatabase.db\n   ```\n\n4. **Run SQL Script**\n\n   Use SQL commands to delete the experiment permanently. Refer to [this link](https://stackoverflow.com/a/68431980/14151292) for a detailed guide."
+  },
+  {
+    "id": "d1b7664c6c",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "How to Update Git Public Repo Without Overwriting Changes",
+    "answer": "**Problem:** I cloned the public repo, made edits, committed, and pushed them to my own repo. Now I want to get the recent commits from the public repo without overwriting my own changes to my own repo. Which command(s) should I use?\n\nBelow is the Git configuration:\n\n```\n[core]\n  repositoryformatversion = 0\n  filemode = true\n  bare = false\n  logallrefupdates = true\n  ignorecase = true\n  precomposeunicode = true\n\n[remote \"origin\"]\n  url = git@github.com:my_username/mlops-zoomcamp.git\n  fetch = +refs/heads/*:refs/remotes/origin/*\n\n[branch \"main\"]\n  remote = origin\n  merge = refs/heads/main\n```\n\n**Solution:**\n\n- Fork the original repository from DataClubsTak instead of cloning it directly.\n- On GitHub, navigate to your forked repository.\n- Click “Fetch and Merge” under the “Fetch upstream” menu on the main page of your own repository."
+  },
+  {
+    "id": "8a8e4f34a7",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Image size of 460x93139 pixels is too large. It must be less than 2^16 in each direction.",
+    "answer": "This issue is caused by `mlflow.xgboost.autolog()` in version 1.6.1 of XGBoost. To resolve this:\n\n- Downgrade XGBoost to version 1.6.0 using the following command:\n\n```bash\npip install xgboost==1.6.0\n```\n\n- Alternatively, update your requirements file to specify `xgboost==1.6.0`."
+  },
+  {
+    "id": "690948b58d",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "MlflowClient object has no attribute 'list_experiments'",
+    "answer": "Since version 1.29, the `list_experiments` method was deprecated and then removed in later versions.\n\nYou should use the following code instead:\n\n```python\n# Register the best model\nmodel_uri = f\"runs:/{best_run.info.run_id}/model\"\nmlflow.register_model(model_uri=model_uri, name=\"RandomForestBestModel\")\n```\n\nFor more details, refer to the [Mlflow documentation](https://mlflow.org/docs/1.29.0/python_api/mlflow.client.html#mlflow.client.MlflowClient.list_experiments)."
+  },
+  {
+    "id": "37e1b6b9bc",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "MLflow Autolog not working",
+    "answer": "Make sure `mlflow.autolog()` (or framework-specific autolog) is written **before** `with mlflow.start_run()`, not after.\n\nAlso, ensure that all dependencies for the autologger are installed, including `matplotlib`. A warning about uninstalled dependencies will be raised."
+  },
+  {
+    "id": "944a62abe6",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "MLflow URL ([127.0.0.1:5000](http://127.0.0.1:5000)) doesn't open.",
+    "answer": "If you’re running MLflow on a remote VM, you need to forward the port too, like we did in Module 1 for the Jupyter notebook port 8888. Simply connect your server to VS Code, as we did, and add 5000 to the PORT.\n\n<{IMAGE:image_1}>\n\nIf you are running MLflow locally and 127.0.0.1:5000 shows a blank page, navigate to localhost:5000 instead."
+  },
+  {
+    "id": "7032c161df",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "MLflow.xgboost Autolog Model Signature Failure",
+    "answer": "Got the same warning message as Warrie Warrie when using `mlflow.xgboost.autolog()`:\n\n<{IMAGE:image_1}>\n\nIt turned out that this was just a warning message, and upon checking MLflow UI (making sure that no \"tag\" filters were included), the model was actually automatically tracked in MLflow."
+  },
+  {
+    "id": "fb9f6e511b",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "MlflowException: Unable to Set a Deleted Experiment",
+    "answer": "```python\nraise MlflowException(\n\nmlflow.exceptions.MlflowException: Cannot set a deleted experiment 'random-forest-hyperopt' as the active experiment. You can restore the experiment, or permanently delete the experiment to create a new one.\n```\n\nTo resolve this issue, consider the following options:\n\n- **Restore or Permanently Delete the Experiment**: Refer to guidance on [Stack Overflow](https://stackoverflow.com/questions/60088889/how-do-you-permanently-delete-an-experiment-in-mlflow) for methods to permanently delete an experiment in MLflow.\n\n- **Command Line Resolution**: If you have deleted the experiment from the MLflow UI, run the following command in the CLI. Make sure to use the correct database filename.\n  \n  ```bash\n  mlflow gc --backend-store-uri sqlite:///backend.db\n  ```\n\n- **Ensure .trash is Empty**: If the above command does not work and your .trash folder is already empty, confirm this by executing:\n\n  ```bash\n  rm -rf mlruns/.trash/*\n  ```\n  \n  Note: Ensure no files remain in `.trash/` that could be interfering with the experiment reset."
+  },
+  {
+    "id": "c34fc43e93",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "MlflowException: Unable to Set a Deleted Experiment with Postgres backend",
+    "answer": "If you’re using a Postgres backend locally or remotely and don’t want to delete the entire backend, you can run this script to permanently delete an experiment. This script assumes you have a separate `env.py` file to retrieve your environment variables.\n\n```python\nimport os\nimport sys\nimport psycopg2\n\nsys.path.insert(0, os.getcwd())\nfrom env import DB_NAME, DB_PASSWORD, DB_PORT, DB_USER\n\ndef perm_delete_exp():\n    connection = psycopg2.connect(\n        database=DB_NAME,\n        user=DB_USER,\n        password=DB_PASSWORD,\n        host=\"localhost\",\n        port=int(DB_PORT)\n    )\n    with connection.cursor() as cursor:\n        queries = \"\"\"\n        DELETE FROM experiment_tags WHERE experiment_id=ANY(SELECT experiment_id FROM experiments where lifecycle_stage='deleted');\n        DELETE FROM latest_metrics WHERE run_uuid=ANY(SELECT run_uuid FROM runs WHERE experiment_id=ANY(SELECT experiment_id FROM experiments where lifecycle_stage='deleted'));\n        DELETE FROM metrics WHERE run_uuid=ANY(SELECT run_uuid FROM runs WHERE experiment_id=ANY(SELECT experiment_id FROM experiments where lifecycle_stage='deleted'));\n        DELETE FROM tags WHERE run_uuid=ANY(SELECT run_uuid FROM runs WHERE experiment_id=ANY(SELECT experiment_id FROM experiments where lifecycle_stage='deleted'));\n        DELETE FROM params WHERE run_uuid=ANY(SELECT run_uuid FROM runs where experiment_id=ANY(SELECT experiment_id FROM experiments where lifecycle_stage='deleted'));\n        DELETE FROM runs WHERE experiment_id=ANY(SELECT experiment_id FROM experiments where lifecycle_stage='deleted');\n        DELETE FROM datasets WHERE experiment_id=ANY(SELECT experiment_id FROM experiments where lifecycle_stage='deleted');\n        DELETE FROM experiments where lifecycle_stage='deleted';\n        \"\"\"\n        for query in queries.splitlines()[1:-1]:\n            cursor.execute(query.strip())\n    connection.commit()\n    connection.close()\n\nif __name__ == \"__main__\":\n    perm_delete_exp()\n```"
+  },
+  {
+    "id": "160cd7cf05",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "No Space Left on Device - OSError[Errno 28]",
+    "answer": "You do not have enough disk space to install the requirements. Here are some solutions:\n\n- **Increase EBS Volume on AWS:** Follow [this guide](https://n2ws.com/blog/how-to-guides/how-to-increase-the-size-of-an-aws-ebs-cloud-volume-attached-to-a-linux-machine#:~:text=First%2C%20go%20to%20your%20volume,your%20requirements%20necessitate%20this%20step) to increase the base EBS volume.\n\n- **Add an External Disk on AWS:** Add and configure an external disk to your instance, then configure conda installation to happen on this external disk.\n\n- **Add Persistent Disk on GCP:**\n  1. Add another disk to your VM and follow [this guide](https://cloud.google.com/compute/docs/disks/add-persistent-disk) to mount the disk.\n  2. Confirm the mount by running the following command in the bash shell:\n     \n    ```bash\n    df -H\n    ```\n  3. Delete Anaconda and use Miniconda instead. Download Miniconda on the additional disk that you mounted.\n  4. During the Miniconda installation, enter the path to the extra disk instead of the default disk, so that conda is installed on the extra disk.\n\n</ANSWER>"
+  },
+  {
+    "id": "3b5e939644",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "How can I run MLflow on a remote server and access it from a different domain without encountering the 'Invalid Host header' error during development or testing?",
+    "answer": "```bash\nmlflow server --backend-store-uri sqlite:///example.db --host 0.0.0.0 --port 5000 --cors-allowed-origins '*' --x-frame-options NONE --disable-security-middleware\n```"
+  },
+  {
+    "id": "cdd6cd3f29",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Homework: Parameters Mismatch in Homework Q3",
+    "answer": "I was using an old version of sklearn, which caused a mismatch in the number of parameters. In the latest version, `min_impurity_split` for `RandomForestRegressor` was deprecated. Upgrading to the latest version resolved the issue."
+  },
+  {
+    "id": "31a648c28a",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Protobuf error when installing MLflow",
+    "answer": "I installed all the libraries from the `requirements.txt` document in a new environment with the following command:\n\n```bash\npip install -r requirements.txt\n```\n\nThen, when I run `mlflow` from my terminal like this:\n\n```bash\nmlflow\n```\n\nI get this error:\n\n<{IMAGE:image_1}>\n\nYou need to downgrade the version of the `protobuf` module to 3.20.x or lower. Initially, it was version 4.21. Use the following command to install the compatible version:\n\n```bash\npip install protobuf==3.20\n```\n\nAfter doing this, I was able to run `mlflow` from my terminal."
+  },
+  {
+    "id": "3fd406c55c",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "SSH: Connection to AWS EC2 instance from local machine WSL getting terminated frequently within a minute of inactivity.",
+    "answer": "If the SSH connection from your local machine’s WSL to an AWS EC2 instance is frequently getting terminated after a short period of inactivity, you might see the following message displayed:\n\n<{IMAGE:image_1}>\n\nTo fix this issue, add the following lines to your `config` file in the `.ssh` directory of your WSL environment:\n\n```\nServerAliveInterval 60\nServerAliveCountMax 3\n```\n\nFor example, after adding these lines, your SSH configuration should look somewhat like this:\n\n```\nHost mlops-zoomcamp\n  HostName 45.80.32.7\n  User ubuntu\n  IdentityFile ~/.ssh/siddMLOps.pem\n  StrictHostKeyChecking no\n  ServerAliveInterval 60\n  ServerAliveCountMax 3\n```"
+  },
+  {
+    "id": "6686406223",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Setting up Artifacts folders",
+    "answer": "Please check your current directory while running the `mlflow ui` command. You need to run `mlflow ui` or `mlflow server` command in the right directory."
+  },
+  {
+    "id": "76d72f3776",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Setting up MLflow experiment tracker on GCP",
+    "answer": "If you have problems setting up MLflow for experiment tracking on GCP, you can check these two links:\n\n- [MLFlow on GCP](https://kargarisaac.github.io/blog/mlops/data%20engineering/2022/06/15/MLFlow-on-GCP.html)\n- [Machine Learning Workflow Orchestration with ZenML](https://kargarisaac.github.io/blog/mlops/2022/08/26/machine-learning-workflow-orchestration-zenml.html)"
+  },
+  {
+    "id": "4cff59a281",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Setuptools Replacing Distutils - MLflow Autolog Warning",
+    "answer": "Downgrade setuptools:\n\n- Change from version 62.3.2 to 49.1.0"
+  },
+  {
+    "id": "85d2a669c6",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Sorting runs in MLflow UI",
+    "answer": "I can’t sort runs in MLflow\n\nMake sure you are in table view (not list view) in the MLflow UI.\n\n<{IMAGE:image_1}>"
+  },
+  {
+    "id": "ad15f21a9f",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "TypeError: send_file() unexpected keyword 'max_age' during MLflow UI Launch",
+    "answer": "**Problem:** When running `$ mlflow ui` on a remote server and attempting to open it in a local browser, the following exception occurs, and the MLflow UI page does not load.\n\n**Solution:**\n\n1. Uninstall Flask on your remote server by using:\n   \n   ```bash\n   pip uninstall flask\n   ```\n   \n2. Reinstall Flask with:\n   \n   ```bash\n   pip install Flask\n   ```\n   \n   This issue arises because the base conda environment includes a version of Flask that's less than 1.2. Cloning this environment retains the older version, causing the error. Installing a newer version of Flask resolves the issue."
+  },
+  {
+    "id": "f7cd7d85ab",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "mlflow ui on Windows FileNotFoundError: [WinError 2] The system cannot find the file specified",
+    "answer": "**Problem:** After successfully installing `mlflow` using `pip install mlflow` on a Windows system, running the `mlflow ui` command results in the error:\n\n```plaintext\nFileNotFoundError: [WinError 2] The system cannot find the file specified\n```\n\n**Solution:**\n\nAdd `C:\\Users\\{User_Name}\\AppData\\Roaming\\Python\\Python39\\Scripts` to the `PATH`."
+  },
+  {
+    "id": "fabdc4421c",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Unsupported Operand Type Error in hpo.py",
+    "answer": "Running the command:\n\n```bash\npython hpo.py --data_path=./your-path --max_evals=50\n```\n\nleads to the following error:\n\n```python\nTypeError: unsupported operand type(s) for -: 'str' and 'int'\n```\n\n**Full Traceback:**\n\n```plaintext\nFile \"~/repos/mlops/02-experiment-tracking/homework/hpo.py\", line 73, in <module>\n  run(args.data_path, args.max_evals)\n\nFile \"~/repos/mlops/02-experiment-tracking/homework/hpo.py\", line 47, in run\n  fmin(\n\nFile \"~/Library/Caches/pypoetry/virtualenvs/mlflow-intro-SyTqwt0D-py3.9/lib/python3.9/site-packages/hyperopt/fmin.py\", line 540, in fmin\n  return trials.fmin(\n\nFile \"~/Library/Caches/pypoetry/virtualenvs/mlflow-intro-SyTqwt0D-py3.9/lib/python3.9/site-packages/hyperopt/base.py\", line 671, in fmin\n  return fmin(\n\nFile \"~/Library/Caches/pypoetry/virtualenvs/mlflow-intro-SyTqwt0D-py3.9/lib/python3.9/site-packages/hyperopt/fmin.py\", line 586, in fmin\n  rval.exhaust()\n\nFile \"~/Library/Caches/pypoetry/virtualenvs/mlflow-intro-SyTqwt0D-py3.9/lib/python3.9/site-packages/hyperopt/fmin.py\", line 364, in exhaust\n  self.run(self.max_evals - n_done, block_until_done=self.asynchronous)\n```\n\n**Solution:**\n\nThe `--max_evals` argument in `hpo.py` is not defined with a datatype, leading to it being interpreted as a string. It should be an integer to ensure the script functions correctly. Modify the argument definition as follows:\n\n```python\nparser.add_argument(\n    \"--max_evals\",\n    type=int,\n    default=50,\n    help=\"the number of parameter evaluations for the optimizer to explore.\"\n)\n```"
+  },
+  {
+    "id": "601b847b43",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Unsupported Scikit-Learn version",
+    "answer": "Getting the following warning when running `mlflow.sklearn`:\n\n```\n2022/05/28 04:36:36 WARNING mlflow.utils.autologging_utils: You are using an unsupported version of sklearn. If you encounter errors during autologging, try upgrading / downgrading sklearn to a supported version, or try upgrading MLflow.\n```\n\n**Solution:**\n\n- Use scikit-learn version between 0.24.1 and 1.4.2.\n\n**Reference:** [MLflow Documentation](https://www.mlflow.org/docs/latest/python_api/mlflow.sklearn.html)"
+  },
+  {
+    "id": "ac877b2d3d",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Mlflow CLI does not return experiments",
+    "answer": "CLI commands (`mlflow experiments list`) do not return experiments.\n\nYou need to set the environment variable for the Tracking URI:\n\n```bash\nexport MLFLOW_TRACKING_URI=http://127.0.0.1:5000\n```"
+  },
+  {
+    "id": "03f9c129fc",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Viewing MLflow Experiments using MLflow CLI",
+    "answer": "Problem:\n\nAfter starting the tracking server, when trying to use the MLflow CLI commands as listed [here](https://mlflow.org/docs/latest/cli.html), most commands can't find the experiments that have been run with the tracking server.\n\nSolution:\n\n- Set the environment variable `MLFLOW_TRACKING_URI` to the URI of the SQLite database:\n\n  ```bash\n  export MLFLOW_TRACKING_URI=sqlite:///{path to sqlite database}\n  ```\n\n- After setting the environment variable, you can view the experiments from the command line using commands like:\n\n  ```bash\n  mlflow experiments search\n  ```\n\n- Note: Commands like `mlflow gc` may still not get the tracking URI and need to be passed explicitly as an argument every time the command is run."
+  },
+  {
+    "id": "0a545e0e4c",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Viewing SQLite Data Raw & Deleting Experiments Manually",
+    "answer": "All the experiment and other tracking information in MLflow are stored in an SQLite database provided while initiating the `mlflow ui` command. This database can be inspected using PyCharm’s Database tab by selecting the SQLite database type.\n\nOnce the connection is created, the tables can be queried and inspected using standard SQL. The same applies to any SQL-backed database such as PostgreSQL.\n\nThis approach is useful to understand the entity structure of the data being stored within MLflow and is beneficial for systematic archiving of model tracking for extended periods.\n\n<{IMAGE:image_1}>\n\n<{IMAGE:image_2}>"
+  },
+  {
+    "id": "86a6321b3d",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "What does launching the tracking server locally mean?",
+    "answer": "Launching the tracking server locally means starting an MLflow server on your machine for remote hosting. This setup is useful when multiple colleagues are collaborating and need to connect to the same MLflow server instead of running it individually on their laptops."
+  },
+  {
+    "id": "dcccce53fc",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Parameter adding in case of max_depth not recognized",
+    "answer": "**Problem:** Parameter was not recognized during the model registry.\n\n**Solution:** Parameters should be added prior to the model registry. Use the following method to add parameters:\n\n```python\nmlflow.log_params(params)\n```\n\nThis way, the dictionary can be directly appended to `data.run.params`."
+  },
+  {
+    "id": "22b02585bf",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Max_depth is not recognize even when I add the mlflow.log_params",
+    "answer": "Max_depth is not recognized even when I add the `mlflow.log_params`.\n\nThe `mlflow.log_params(params)` should be added to the `hpo.py` script. If you run it, it will append the new model to the previous run that doesn’t contain the parameters. You should either:\n\n- Remove the previous experiment\n- Change it"
+  },
+  {
+    "id": "d71f8cb2d0",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "AttributeError: 'tuple' object has no attribute 'tb_frame'",
+    "answer": "**Problem:** About week_2 homework: The `register_model.py` script, when copied into a Jupyter notebook, fails and produces the following error:\n\n```python\nAttributeError: 'tuple' object has no attribute 'tb_frame'\n```\n\n**Solution:** Remove click decorators."
+  },
+  {
+    "id": "d4c21886e6",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "WandB API error",
+    "answer": "**Problem:** When running the `preprocess_data.py` file, you encounter the following error:\n\n```bash\nwandb: ERROR api_key not configured (no-tty). call wandb.login(key=[your_api_key])\n```\n\n**Solution:**\n\n1. Go to your WandB profile and navigate to user settings.\n2. Scroll down to the “Danger Zone” and copy your API key.\n3. Before running `preprocess_data.py`, add and run the following cell in your notebook:\n\n   ```bash\n   %%bash\n   wandb login <YOUR_API_KEY_HERE>\n   ```"
+  },
+  {
+    "id": "13fecb68a8",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "WARNING mlflow.xgboost: Failed to infer model signature: could not sample data to infer model signature: please ensure that autologging is enabled before constructing the dataset.",
+    "answer": "Please make sure you follow the order below, enabling autologging before constructing the dataset. If you still have this issue, check that your data is in a format compatible with XGBoost.\n\n1. **Enable MLflow autologging for XGBoost**\n   \n   ```python\n   mlflow.xgboost.autolog()\n   ```\n\n2. **Construct your dataset**\n\n   ```python\n   X_train, y_train = ...\n   ```\n\n3. **Train your XGBoost model**\n\n   ```python\n   import xgboost as xgb\n   model = xgb.XGBRegressor(...)\n   \n   model.fit(X_train, y_train)\n   ```"
+  },
+  {
+    "id": "bfbe05dcd9",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Old version of glibc when running XGBoost",
+    "answer": "Starting from version 2.1.0, XGBoost distributes its Python package in two variants:\n\n- **manylinux_2_28**: For recent Linux distributions with glibc 2.28 or newer. This variant includes all features, such as GPU algorithms and federated learning.\n- **manylinux2014**: For older Linux distributions with glibc versions older than 2.28. This variant lacks support for GPU algorithms and federated learning.\n\nIf you're installing XGBoost via pip, the package manager automatically selects the appropriate variant based on your system's glibc version. Starting May 31, 2025, the manylinux2014 variant will no longer be distributed.\n\nThis means that systems with glibc versions older than 2.28 will not be able to install future versions of XGBoost via pip unless they upgrade their glibc version or build XGBoost from source. \n\n[This behavior is disabled for conda.](https://github.com/conda-forge/xgboost-feedstock/pull/240#discussion_r2106138856)"
+  },
+  {
+    "id": "47c771de0d",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "wget not working",
+    "answer": "**Problem**\n\nUsing the `wget` command to download either data or Python scripts on Windows, I am using the notebook provided by Visual Studio and despite having a Python virtual environment, it did not recognize the `pip` command.\n\n**Solution**\n\n- Use `python -m pip`, this applies to any other command as well, e.g., `python -m wget`."
+  },
+  {
+    "id": "e525587d40",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Open/run github notebook(.ipynb) directly in Google Colab",
+    "answer": "**Problem:** Open/run GitHub notebook (.ipynb) directly in Google Colab\n\n**Solution:**\n\n- Change the domain from `github.com` to `githubtocolab.com`. The notebook will open in Google Colab.\n- Note: This only works with public repositories.\n\n---\n\nNavigating in Wandb UI became difficult to me, I had to intuit some options until I found the correct one.\n\n**Solution:** Refer to the official documentation."
+  },
+  {
+    "id": "d30594cef3",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Why do we use Jan/Feb/March for Train/Test/Validation Purposes?",
+    "answer": "We use this type of split approach instead of a random split to address specific needs in model evaluation, primarily focusing on seasonality and preventing data leakage.\n\n1. **\"Out of Time\" Validations:**\n   - **Check for Seasonality:**\n     - By using specific periods like Jan/Feb/March, we can assess if there are seasonal effects in the data.\n     - Example: If the RMSE for the test period is 5, but the RMSE for validation is 20, this indicates significant seasonality. This might suggest switching to Time Series approaches.\n   \n2. **Prevent Data Leakage:**\n   - When predicting future outcomes, a \"random sample\" train/test split can introduce data leakage, resulting in overfitting and poor model performance in production.\n   - It's crucial not to use future information when predicting the present in a model context.\n\n- **Train:** January\n- **Test:** February\n- **Validate:** March\n\nThe validation process is essential for reporting model metrics to leadership, regulators, auditors, and for analyzing target drift in the models.\n\n<Problem and approach discussed were provided by an internal source.>"
+  },
+  {
+    "id": "6b1c62c9cf",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "WARNING: mlflow.sklearn: Failed to log training dataset information to MLflow Tracking.",
+    "answer": "When using MLflow's autolog function, you may encounter the following warning:\n\n```\nWARNING mlflow.sklearn: Failed to log training dataset information to MLflow Tracking. Reason: 'numpy.ndarray' object has no attribute 'toarray'\n```\n\nThis occurs because the autolog function is attempting to log your dataset. MLflow expects the dataset to be in a `pd.DataFrame` format. If you're following course code that provides a `numpy.ndarray`, MLflow fails as the `numpy.ndarray` is already an array.\n\nSince we are not processing datasets in this zoomcamp, use the following parameter in the autolog function to prevent logging datasets:\n\n```python\nlog_datasets = False\n```"
+  },
+  {
+    "id": "76e6d9e8ce",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "ImportError: urllib3 v2.0 only supports OpenSSL 1.1.1+",
+    "answer": "If you're encountering this error while running `mlflow server` against S3 or Postgres (e.g. on an Amazon Linux 2 instance with OpenSSL 1.0.2):\n\n```\nImportError: urllib3 v2.0 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'OpenSSL 1.0.2k-fips  26 Jan 2017'.\n```\n\nPin urllib3 to a compatible version:\n\n```bash\npip3 install \"urllib3<1.27\"\n```\n\nAlternatively, upgrading `mlflow` itself often downgrades `urllib3` as a side effect, fixing the import:\n\n```bash\npip3 install --upgrade mlflow\n```"
+  },
+  {
+    "id": "4d08d35199",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "AttributeError: 'MlflowClient' object has no attribute 'list_run_infos'",
+    "answer": "Problem: In the scenario 2 notebook, the error \n\n```python\nAttributeError: 'MlflowClient' object has no attribute 'list_run_infos'\n```\n\nis thrown when running:\n\n```python\nrun_id = client.list_run_infos(experiment_id='1')[0].run_id\n```\n\nSolution: Use the following code instead:\n\n```python\nrun_id = client.search_runs(experiment_ids='1')[0].info.run_id\n```\n\nScenario: This solution works for MLflow version 2.12.2 and might work for other recent versions as of May, 2024."
+  },
+  {
+    "id": "460343cb44",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "When using Autologging, do I need to set a training parameter to track it on Mlflow UI?",
+    "answer": "No, in the official documentation it’s mentioned that autologging keeps track of the parameters even when you do not explicitly set them when calling `.fit`.\n\nYou can run the training, only setting the parameters you want, but you can check all the parameters in the MLflow UI."
+  },
+  {
+    "id": "58a9c117d5",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Hyperopt is not installable with Conda",
+    "answer": "**Description**\n\nWhen setting up your virtual environment with\n\n```bash\nconda install --file requirements.txt\n```\n\nyou may encounter the following error:\n\n```bash\nPackagesNotFoundError: The following packages are not available from current channels:\n\n- hyperopt\n```\n\n**Solution**\n\n- Your conda installation might be out of date. You can update Conda with:\n\n  ```bash\n  conda update -n base -c defaults conda\n  ```\n\n- If updating does not solve the issue, consider installing the package via the Intel channel, as advised on the [conda page](https://anaconda.org/intel/hyperopt):\n\n  ```bash\n  conda install intel::hyperopt\n  ```"
+  },
+  {
+    "id": "a0ac7f4f77",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Error importing xgboost in python with OS mac: library not loaded: @rpath/libomp.dylib",
+    "answer": "To fix this error, run the following command:\n\n```bash\nbrew install libomp\n```"
+  },
+  {
+    "id": "a76d315b86",
+    "course": "mlops-zoomcamp",
+    "section": "Module 2: Experiment Tracking",
+    "question": "Size limit when uploading to GitHub",
+    "answer": "To manage size limits effectively when uploading to GitHub, add the `mlruns` and `artifacts` directories to your `.gitignore`, like this:\n\n```\n02-experiment-tracking/mlruns\n02-experiment-tracking/runnin-mflow-examples/mlruns\n02-experiment-tracking/homework/mlruns\n02-experiment-tracking/homework/artifacts\n```"
+  },
+  {
+    "id": "c1768edac2",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Why does MlflowClient no longer support list_experiments?",
+    "answer": "Older versions of MLflow used `client.list_experiments()`, but in recent versions, this method was replaced.\n\nUse `client.search_experiments()` instead."
+  },
+  {
+    "id": "250d8d1c81",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Mage shortcut key to open Text Editor is not working on Windows",
+    "answer": "On Windows, use the shortcut key `CTRL+WIN+.`.\n\nFor MacOS, the shortcut is `CMD+.`."
+  },
+  {
+    "id": "d317ebf313",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Mage: Pipeline breaks with `[Errno 2] No such file or directory: '/home/src/mage_data/{…} /.variables/{...}/output_1/object.joblib'`",
+    "answer": "1. Export the pipeline as a zip file.\n2. Create a new Mage project.\n3. Import the pipeline zip to the new project.\n\nAdditionally, check the following:\n\n- Review the logs of the upstream block that was expected to generate `object.joblib`. Ensure it completed successfully.\n- Verify that the expected output (often named `output_1`) was created and saved.\n- Check in the Mage UI or directly in the file system (if accessible) to confirm whether the file exists in the `.variables` directory for that upstream block."
+  },
+  {
+    "id": "60da2ce9c6",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Docker: Update docker-compose to initiate Mage",
+    "answer": "When running `./scripts/start.sh`, the following error occurs:\n\n```plaintext\nERROR: The Compose file './docker-compose.yml' is invalid because:\n\nUnsupported config option for networks: 'app-network'\n\nUnsupported config option for services: 'magic-platform'\n```\n\nSolution:\n\n1. **Download the latest version of Docker Compose**\n\n   ```bash\n   sudo curl -L \"https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)\" -o /usr/local/bin/docker-compose\n   ```\n\n2. **Apply executable permissions to the binary**\n\n   ```bash\n   sudo chmod +x /usr/local/bin/docker-compose\n   ```"
+  },
+  {
+    "id": "ba50d9e0bc",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Mage in Codespaces in a subfolder under mlops-zoomcamp repository",
+    "answer": "**Issue 1:** Errors such as:\n\n```bash\n[+] Running 1/1\n\n✘ magic-database Error too many requests: You have reached your pull rate limit. You may increase the limit by authenticating and upgra...                   \n\nError response from daemon: too many requests: You have reached your pull rate limit. You may increase the limit by authenticating and upgrading: [docker.com](https://www.docker.com/increase-rate-limit)\n```\n\n**Issue 2:** Popups with different percentage values indicating space is in single digits.\n\n<{IMAGE:image_1}>\n\n**Solution:** It is not recommended to set up Mage as a subfolder of mlops-zoomcamp. See findings in this thread for more information."
+  },
+  {
+    "id": "74daf4433d",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Mage in Codespaces",
+    "answer": "The below errors seem to occur only when using Mage in Codespaces.\n\n**Errors**\n\n1. **Error (1)**\n   \n   ```bash\n   Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?\n   ```\n\n2. **Error (2)**\n   \n   ```bash\n   Error response from daemon: invalid volume specification: '/workspaces/mage-mlops:/:rw': invalid mount config for type \"bind\": invalid specification: destination can't be '/'\n   ```\n\n   **Solution for (1) & (2):**\n   \n   - Stay tuned…still testing.\n   - Running `docker info` and `docker –version` works fine. \n   - Executing `docker compose down`, stopping Codespaces, and reconnecting resolved the errors, though it might not be reproducible for everyone.\n\n3. **Error (3)**\n\n   ```bash\n   warning: unable to access '/home/codespace/.gitconfig': Is a directory\n   ```\n\n   **Solution (3):**\n\n   - This is targeted for 3.5.x Deploying with Mage. If not deploying:\n     - Comment line #20 in `docker-compose.yml`.\n     - Place a dummy empty file named `.gitconfig` in your repo’s root folder.\n     - Copy it in the Dockerfile with this line, place it below line #9:\n\n       ```dockerfile\n       COPY .gitconfig /root/.gitconfig\n       ```\n\n   - The reason this happens is that when the file is missing, Docker auto-creates it as a directory instead of a file. Creating a dummy file prevents this."
+  },
+  {
+    "id": "563feb7fd1",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Mage updated in UI",
+    "answer": "When you see the mage version change in the UI after you’ve started the container, and you want to update, follow these steps. Read the release notes first to see if there’s a fix that affected your work and would benefit from an update.\n\nIf you want to remain in the previous version, it's also fine unless the fixes were specifically for our zoomcamp coursework (check the repository for any new instructions or PRs added).\n\n1. Close the browser page.\n2. In the terminal console, bring down the container:\n   ```bash\n   docker compose down\n   ```\n3. Rebuild the container with the new mage image:\n   ```bash\n   docker compose build --no-cache\n   ```\n4. Verify that you see:\n   ```bash\n   [magic-platform 1/4] FROM docker.io/mageai/mageai:alpha\n   ```\n   This means that the container is being rebuilt with a new version.\n\n5. If the image is not updated, press `ctrl+c` to cancel the process and pull the image manually:\n   ```bash\n   docker pull mageai/mageai:alpha\n   ```\n   Then rebuild.\n\n6. Restart the docker container as before:\n   ```bash\n   ./scripts/start.sh\n   ```\n\nNote: This is the same sequence of steps if you want to switch to the latest tagged image instead of using the alpha image.\n\n**What does alpha and latest mean?**\n\n- **Latest** is the fully released version ready for production use, and it has gone through verification, testing, QA, and whatever else the release cycle entails.\n\n- **Alpha** is the potentially buggy version with fresh new fixes and newly added features; but not yet put through the full beta test (if there’s one), integration testing, and other QA steps. Expect issues to occur."
+  },
+  {
+    "id": "078039f4e3",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Mage Time Series Bar Chart Not Showing",
+    "answer": "```python\nimport requests\nfrom io import BytesIO\nfrom typing import List\nimport numpy as np\nimport pandas as pd\n\nif 'data_loader' not in globals():\n    from mage_ai.data_preparation.decorators import data_loader\n\n@data_loader\ndef ingest_files(**kwargs) -> pd.DataFrame:\n    dfs: List[pd.DataFrame] = []\n    for year, months in [(2024, (1, 3))]:\n        for i in range(*months):\n            response = requests.get(\n                f'https://github.com/mage-ai/datasets/raw/master/taxi/green/{year}/{i:02d}.parquet'\n            )\n            if response.status_code != 200:\n                raise Exception(response.text)\n            df = pd.read_parquet(BytesIO(response.content))\n            # if time series chart on mage error, add code below\n            df['lpep_pickup_datetime_cleaned'] = df['lpep_pickup_datetime'].astype(np.int64) // 10**9\n            dfs.append(df)\n    return pd.concat(dfs)\n```"
+  },
+  {
+    "id": "1e05eabc5c",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Mage: data_exporter block not taking all outputs from previous transformer block",
+    "answer": "I encountered this issue while trying to run the `data_export` block that saves the dict vectorizer and the logs of the linear regression model into MLflow. My two distinct outputs were clearly created by the previous transformer block where the linear regression model is trained and the dict vectorizer is fitted to the training dataset.\n\nI received this error while trying to run my export code:\n\n```\nException: Block mlflow_model_registry may be missing upstream dependencies. It expected to have 2 arguments, but only received 1. Confirm that the @data_exporter method declaration has the correct number of arguments.\n```\n\nThe outputs are stored in a list, and this list is the input with the two outputs as the two elements. I had to modify my code in the `data_exporter` function to take only one argument and to define the two variables after that:\n\n```python\nDv = output[0]\n\nLr = output[1]\n```\n\nThis adjustment resolved the issue."
+  },
+  {
+    "id": "e065665622",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Mage Dashboard on unit_3 is not showing charts",
+    "answer": "```plaintext\nError: Cannot cast DatetimeArray to dtype float64\n```\n\n- Have the runs completed successfully? We need to have successfully running Pipelines in order to populate the mage and mlflow databases.\n\n- If all pipelines are successfully completed and you are still getting this error, please provide further information."
+  },
+  {
+    "id": "85c83560c5",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Creating Helper functions in Mage",
+    "answer": "There’s no need to add the utility functions in each sub-project when you watch the videos as there only needs to be one set. Just verify the code is still the same as in Mage’s mlops repository.\n\nAs for the import statements:\n\n```python\nfrom mlops.utils.[...] import [...]\n```\n\nAll refer to the same path in the main mlops \"parent\" project:\n\n```\n/[mage-mlops-repository-name]/mlops/utils/...\n```"
+  },
+  {
+    "id": "cc4481d2fa",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Mage GDP block hangs or fails with `AttributeError: 'NoneType' object has no attribute 'to_dict'`",
+    "answer": "If the Global Data Products block in Video 3.2.1 takes forever and eventually fails with:\n\n```\nPipeline run xx for global data product training_set: failed\nAttributeError: 'NoneType' object has no attribute 'to_dict'\n```\n\nTry these in order:\n\n1. Check that the project and repo_path in the block config match your setup:\n\n   ```python\n   \"project\": \"unit_2_training\",\n   \"repo_path\": \"/home/src/mlops/unit_2_training\",\n   ```\n\n2. Restart the kernel from the Run menu, then bring Docker down and back up via the script.\n\n3. If it still fails, rebuild the block: remove the connections from the `hyperparameter_tuning/sklearn` block to its upstream blocks (click each connector → Remove Connection), delete the Global Data Product block from the Tree panel (right click → Delete Block, ignore dependencies), then drag a fresh Global Data Products block to be the first in the pipeline, rename it to match the video, and re-run it.\n\nYou can repeat the same recovery steps for the corresponding file in `unit_3_observability`.\n\nReference docs:\n\n- [Project Management](https://docs.mage.ai/platform/projects/management)\n- [Project Structure](https://docs.mage.ai/design/abstractions/project-structure)\n- [Global Data Products Overview](https://docs.mage.ai/orchestration/global-data-products/overview)"
+  },
+  {
+    "id": "e2806ae236",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "How do you remove a global data product?",
+    "answer": "There is no way to remove this through the UI. You need to manually edit the `global_data_products.yaml`, which is stored in your project’s utils function. You can do this through the Text Editor."
+  },
+  {
+    "id": "fa12df76a7",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Mage error: TypeError: string indices must be integers",
+    "answer": "If you've removed and re-added blocks (especially while debugging Global Data Products), the upstream connections may be stale.\n\n- Remove the connections from the `hyperparameter_tuning/sklearn` block in the Tree panel to its upstream blocks.\n- Re-add these connections.\n- Save the pipeline with `Ctrl+S`."
+  },
+  {
+    "id": "8231e2605d",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "MLflow container error: Can't locate revision identified by …",
+    "answer": "This means your MLflow container tries to access a db file which was a backend for a different MLflow version than the one you have in the container. Most likely, the MLflow version in the container does not match the MLflow version of the MLflow server you ran in module 2.\n\nThe easiest solution is to check which version you worked with before, and change the docker image accordingly.\n\n1. Open a terminal on your host and activate the conda environment you worked in:\n\n   ```bash\n   conda activate <your-env-name>\n   ```\n\n2. Run the following command to check your MLflow version:\n\n   ```bash\n   mlflow --version\n   ```\n\n3. Edit the `mlflow.dockerfile` line to your version:\n\n   ```Dockerfile\n   RUN pip install mlflow==2.??.??\n   ```\n\n4. Save the file and rebuild the docker service by running:\n\n   ```bash\n   docker-compose build\n   ```\n\n5. Now you can start up the containers again, and your MLflow container should be able to successfully read your mounted DB file."
+  },
+  {
+    "id": "7100f168a2",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Permission denied in GitHub Codespace",
+    "answer": "When you encounter a permission denied error while setting up the server in GitHub Codespaces, refer to this guide:\n\n[https://askubuntu.com/questions/409025/permission-denied-when-running-sh-scripts](https://askubuntu.com/questions/409025/permission-denied-when-running-sh-scripts)"
+  },
+  {
+    "id": "841966c903",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Where is the FAQ for Prefect questions?",
+    "answer": "[Here](https://docs.google.com/document/d/1Nyktf7WoRec5lDUBREXL5zLI1Edbw9_R8e45fDn4KB8/edit?usp=sharing)"
+  },
+  {
+    "id": "7deae3a8eb",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "(root) Additional property mlflow is not allowed",
+    "answer": "This error means you are not writing below server on the Docker Compose file. To solve the issue:\n\n<{IMAGE:image_1}>"
+  },
+  {
+    "id": "d94e5cc566",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Q6: Logged model artifacts lost when mlflow container is down or removed",
+    "answer": "By default, the logged model and artifacts are stored in a local folder in the mlflow container but not in `/home/src/mlflow`. Therefore, when the container is restarted (after a compose down or container removal), the artifacts are deleted and you cannot see them in the mlflow UI.\n\nTo prevent this issue, you can include a new volume in the Docker Compose service for mlflow to map a folder on the local machine to the folder `/mlartifacts` in the mlflow container:\n\n- ```bash\n  \"${PWD}/mlartifacts:/mlartifacts/\"\n  ```\n\nThis way, every data logged to the experiment will be available even when the mlflow container is recreated."
+  },
+  {
+    "id": "b88d825b12",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Q6: mlflow not showing artifacts",
+    "answer": "When using localstore, try to start `mlflow` where `mlflow.db` is present. For example, if `mlflow.db` is in `mlops/mlflow`, navigate to that folder and run `../scripts/start.sh`. This assumes you followed the instructions in the `homework.md` file of week 3 and set up the `mlops` folder."
+  },
+  {
+    "id": "0afee51849",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Q6: Correct mlflow tracking uri",
+    "answer": "For the correct mlflow tracking URI, use:\n\n```python\nmlflow.set_tracking_uri(uri=\"http://mlflow:5000\")\n```\n\nThis assumes you used the suggested Docker file snippet in Homework Question 6."
+  },
+  {
+    "id": "b395e1c5ec",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "I get the following error: invalid mount config for type \"bind\": invalid specification: destination can't be '/' when running docker compose up when running mage",
+    "answer": "You should not run `docker compose up` for the mage repo directly. Instead, use:\n\n```bash\nbash ./scripts/start.sh\n```\n\n**Additional Information**\n\n- The `start.sh` script handles necessary environment variable settings before executing `docker compose up`.\n- Key environment variables such as `PROJECT_NAME` and `MAGE_CODE_PATH` should be set, potentially in your `.env` file.\n- Note that if you are starting a new mage project, like in a capstone project, you may not have a `start.sh` script or a `scripts` directory, so ensure the environment variables are set correctly.\n\nUpdate by another student from the MLOps Zoomcamp."
+  },
+  {
+    "id": "376ba649d7",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "AttributeError: module 'mlflow' has no attribute 'set_tracking_url'",
+    "answer": "In a mage block, the Python statement `mlflow.set_tracking_uri()` was returning an attribute error. This issue was observed when running Mage in one container and MLflow in another. If you encounter this, there may be something else in your project with the name \"mlflow.\"\n\n1. **Debugging the Import Issue:**\n   - Insert a print statement before the Python statement that produces the attribute error:\n     \n     ```python\n     print(mlflow.__file__)\n     ```\n     \n   - This will show what the `mlflow` module points to. It should return a site-packages location, something like:\n     \n     ```\n     '/usr/local/lib/python3.10/site-packages/mlflow/__init__.py'\n     ```\n     \n   - If not, you may have another file or folder called \"mlflow\" that is confusing the Python import statement.\n\n2. **Checking Backend Store Location:**\n   - Look at the folder name where the `mlflow.db` is being created via this command (either in command line or in the Dockerfile for the MLflow service):\n     \n     ```bash\n     mlflow server --backend-store-uri sqlite:///home/mlflow/mlflow.db --host 0.0.0.0 --port 5000\n     ```\n     \n   - If the folder name for the backend store is \"mlflow,\" Python may be trying to import that instead of the MLflow package you installed. Change the backend store folder name to something else, like `mlflow_data`.\n\n   - Rename the folder in your local drive (since it gets mounted in `docker-compose.yml`).\n   - Update the folder name in the Dockerfile for the MLflow service:\n     - Specify the backend-store-uri in the MLflow server command with the new folder name.\n   - Update the folder name in `docker-compose.yml` (when mounting the folder for the MLflow service), e.g.,\n     \n     ```yaml\n     volumes:\n       - \"${PWD}/mlflow_data:/home/mlflow_data/\"\n     ```\n\n3. **If `import mlflow` Gives a Module Not Found Error:**\n   - Check the `PYTHONPATH` variable in the container:\n     \n     ```bash\n     docker ps  # Copy the Mage container ID\n     docker exec -it <container-ID> /bin/bash\n     echo $PYTHONPATH\n     ```\n     \n   - If you do not see the path to the site-packages directory for your Python version, add it to the `PYTHONPATH` environment variable.\n   \n   - To find out what path to use, execute this from the running container:\n     \n     ```python\n     import sys\n     print(sys.path)\n     ```\n     \n   - Add this to the `PYTHONPATH` in the Dockerfile for the Mage service:\n     \n     ```dockerfile\n     ENV PYTHONPATH=\"${PYTHONPATH}:/usr/local/lib/python3.10/site-packages\"\n     ```"
+  },
+  {
+    "id": "3e58074bee",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "prefect project init Error: No such command 'project'.",
+    "answer": "The newest version of Prefect does not have the module `project`. To initiate a project, use the command:\n\n```bash\nproject init\n```"
+  },
+  {
+    "id": "b3fe59d431",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Video 3.3.4: Training Metrics RMSE chart does not show due to the error: KeyError: ‘rmse_LinearRegression’",
+    "answer": "Solution: Check the difference between xgboost and sklearn pipelines. In the xgboost pipeline, there is a `track_experiment` callback, which is missing in the sklearn pipeline.\n\nPlease add these lines:\n\nYou can refer to them in the similar commit linked here:\n\n[Lines to be added](https://github.com/nilarte/mlops-zoomcamp-mage/commit/16c01dfcc2541a03a49f4744d0b0f0207c06e99d#diff-a97c890cfc31702e4b94f1e9a05558ebb8a57349fc9ccf153e82ae53af1bd53e)"
+  },
+  {
+    "id": "f74891d445",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "How can I enable communication between Docker containers when invoked from a Kestra task?",
+    "answer": "![Diagram of Docker Container Communication](<{IMAGE:image_1}>)\n\nUse the `docker.Run` plugin in your Kestra task to run containers. This plugin supports advanced Docker options like custom networks.\n\nFor local development, you can use `networkMode: host` to allow containers to access services on your host (e.g., MLflow running on localhost).\n\nExample:\n\n```yaml\nnetworkMode: host\n```\n\nNote:\n- `host` mode is only supported on Linux.\n- For Docker Desktop on Windows/macOS, use `host.docker.internal` or create a shared Docker network.\n\n**Best Practice:**\n\nIn production setups, tools like MLflow should run outside Kestra and be accessed over a stable URI (e.g., a cloud endpoint or a container with a known hostname in a shared network)."
+  },
+  {
+    "id": "bd885d3d4d",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "How can I integrate my Dockerized ML model into a Mage pipeline?",
+    "answer": "The most effective approach is to have your Docker container serve the model via an HTTP API (FastAPI or Flask), then call that API from a custom Python block in Mage.\n\nIn your Docker container:\n\n- Wrap your model's prediction logic in an API. With FastAPI, create a `/predict` endpoint that accepts input data and returns the model's output.\n- Build and run the container. For local development, run both your model's container and the Mage container with `docker-compose` on the same Docker network so they can reach each other by service name.\n\nIn your Mage pipeline:\n\n- Add a custom Python block (a transformer or data loader).\n- Inside the block, use `requests` to send your input data to the model's `/predict` endpoint.\n- Process the returned predictions and pass them downstream — to a database, another transformer, or an exporter."
+  },
+  {
+    "id": "6ba940e0fd",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Mage: cannot create a Global Data Product across projects",
+    "answer": "If you try to build a Global Data Product that points at a pipeline in a different Mage project, it fails with:\n\n```\nAttributeError: 'NoneType' object has no attribute 'to_dict'\n```\n\nMage's Global Data Products are not cross-project. Create the data preparation pipeline inside the same project that consumes it (e.g. `unit_2_training`) and configure it to build there."
+  },
+  {
+    "id": "9cfe589a2e",
+    "course": "mlops-zoomcamp",
+    "section": "Module 3: Orchestration",
+    "question": "Video 3.2.8: ValueError: not enough values to unpack (expected 3, got 1)",
+    "answer": "Ensure the upstream connections for the xgboost training are in the right order:\n\n- `data` → `training_set`\n- `data_2` → `hyperparameter_tuning/xgboost`\n\nIf your tree doesn't look like this:\n\n1. Remove the connections for the `xgboost` block.\n2. Reconnect starting with the training set, then `hyperparameter_tuning/xgboost`."
+  },
+  {
+    "id": "e00253e2df",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Fix Out of Memory error while orchestrating the workflow on a ML Pipeline for a high volume dataset.",
+    "answer": "We come across situations in data transformation & pre-processing as well as model training in a ML pipeline where we need to handle datasets of high dimensionality or high cardinality (usually millions). We often end up with Out of Memory (OOM) errors like below when the flow is running:\n\n<{IMAGE:image_1}>\n\nIf you do not have the option of increasing your RAM, the following approaches can be effective in mitigating this error:\n\n1. **Read Only Required Features/Columns:**\n   - During the data loading step, read only the necessary features/columns from the dataset.\n   \n   <{IMAGE:image_2}>\n\n2. **Remove Unused Dataframes:**\n   - Before encoding/vectorizing, remove the dataframe when you have obtained `X_train` & `y_train`.\n   \n   <{IMAGE:image_3}>\n\n3. **Create or Resize Swap File:**\n   - If you do not have a swap file or have a small one, create a swap file (size as per memory requirement) or replace the existing one with a properly sized one.\n   \n   To remove an existing swapfile, use:\n   \n   ```bash\n   sudo swapoff /swapfile\n   sudo rm /swapfile\n   ```\n   \n   To create a new properly sized swapfile (e.g., 16 GB), use:\n   \n   ```bash\n   sudo fallocate -l 16G /swapfile\n   sudo chmod 600 /swapfile\n   sudo mkswap /swapfile\n   sudo swapon /swapfile\n   ```\n   \n   To check the swap file created:\n   \n   ```bash\n   free -h\n   ```"
+  },
+  {
+    "id": "74974bf558",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Docker: aws.exe: error: argument operation: Invalid choice — Docker can not login to ECR.",
+    "answer": "When using AWS CLI on Windows, you might encounter the following error:\n\n```\naws.exe: error: argument operation: Invalid choice\n```\n\n1. Check your AWS CLI version. For example:\n   \n   ```\n   aws-cli/2.4.24 Python/3.8.8 Windows/10 exe/AMD64 prompt/off\n   ```\n\n2. Instead of using the outdated command, use the updated command provided by AWS:\n\n   ```bash\n   aws ecr get-login-password \\\n   --region <region> \\\n   | docker login \\\n   --username AWS \\\n   --password-stdin <aws_account_id>.dkr.ecr.<region>.amazonaws.com\n   ```\n\n3. Refer to the official AWS documentation for additional details: [AWS CLI ECR Login Password](https://docs.aws.amazon.com/cli/latest/reference/ecr/get-login-password.html)\n\nEnsure that you replace `<region>` and `<aws_account_id>` with your specific values."
+  },
+  {
+    "id": "2d292454ac",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Multiline commands in Windows Powershell",
+    "answer": "To use multiline commands in Windows PowerShell, place a backtick (`) at the end of each line except the last. Note that multiline strings do not require a backtick.\n\n- Escape double quotes (`\"`) to `\"\\`\n- Use `$env:` to create environment variables (non-persistent). For example:\n\n```powershell\n$env:KINESIS_STREAM_INPUT=\"ride_events\"\n\naws kinesis put-record --cli-binary-format raw-in-base64-out `\n\n--stream-name $env:KINESIS_STREAM_INPUT `\n\n--partition-key 1 `\n\n--data '{\n\n\\\"ride\\\": {\n\n\\\"PULocationID\\\": 130,\n\n\\\"DOLocationID\\\": 205,\n\n\\\"trip_distance\\\": 3.66\n\n},\n\n\\\"ride_id\\\": 156\n\n}'\n```"
+  },
+  {
+    "id": "a2d10b83d9",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Pipenv installation not working (AttributeError: module 'collections' has no attribute 'MutableMapping')",
+    "answer": "If you encounter pipenv failures with the command `pipenv install` and see the following error:\n\n```python\nAttributeError: module 'collections' has no attribute 'MutableMapping'\n```\n\nThe issue occurs because you are using the system Python (3.10) for pipenv.\n\nTo resolve this issue:\n\n1. If pipenv was previously installed via `apt-get`, remove it using:\n   ```bash\n   sudo apt remove pipenv\n   ```\n\n2. Ensure a non-system Python is installed in your environment. An easy way to achieve this is by installing Anaconda or Miniconda.\n\n3. Install pipenv using your non-system Python:\n   ```bash\n   pip install pipenv\n   ```\n\n4. Re-run `pipenv install <dependencies>` with the relevant dependencies. It should work without issues.\n\nThis solution was tested and worked on an AWS instance similar to the configuration presented in class."
+  },
+  {
+    "id": "7fa713d6c7",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "module is not available (Can't connect to HTTPS URL)",
+    "answer": "First, check if the SSL module is configured with the following command:\n\n```bash\npython -m ssl\n```\n\nIf the output is empty, there is no problem with the SSL configuration. Then you should upgrade your pipenv package in your current environment to resolve the problem."
+  },
+  {
+    "id": "1b858ee8bb",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "No module named 'pip._vendor.six'",
+    "answer": "During scikit-learn installation via the command:\n\n```bash\npipenv install scikit-learn==1.0.2\n```\n\nThe following error is raised:\n\n```\nModuleNotFoundError: No module named 'pip._vendor.six'\n```\n\nTo resolve this issue, follow these steps:\n\n1. Install the `python-six` package:\n   \n   ```bash\n   sudo apt install python-six\n   ```\n\n2. Remove the existing Pipenv environment:\n   \n   ```bash\n   pipenv --rm\n   ```\n\n3. Reinstall `scikit-learn`:\n\n   ```bash\n   pipenv install scikit-learn==1.0.2\n   ```"
+  },
+  {
+    "id": "ecba2d4d27",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Pipenv with Jupyter",
+    "answer": "**Problem Description:** How can we use Jupyter notebooks with the Pipenv environment?\n\n**Solution:**\n\n1. Install Jupyter and `ipykernel` using Pipenv.\n\n2. Register the kernel within the Pipenv shell using the following command:\n\n   ```bash\n   python -m ipykernel install --user --name=my-virtualenv-name\n   ```\n\n3. If you are using Jupyter notebooks in VS Code, this will also add the virtual environment to the list of kernels.\n\nFor more details, refer to this [Stack Overflow question](https://stackoverflow.com/questions/47295871/is-there-a-way-to-use-pipenv-with-jupyter-notebook)."
+  },
+  {
+    "id": "afd037e097",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Pipenv: Jupyter no output",
+    "answer": "**Problem:** I tried to run a starter notebook in a Pipenv environment but had issues with no output on prints. I used `scikit-learn==1.2.2` and `python==3.10`. Tornado version was `6.3.2`.\n\n**Solution:** The error you're encountering seems to be a bug related to Tornado, which is a Python web server and networking library. It's used by Jupyter under the hood to handle networking tasks.\n\n- Downgrading to `tornado==6.1` fixed the issue.\n\nMore information can be found on [this Stack Overflow post](https://stackoverflow.com/questions/54971836/no-output-jupyter-notebook)."
+  },
+  {
+    "id": "ff0f22df21",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "AWS CLI: 'Invalid base64' error after running `aws kinesis put-record`",
+    "answer": "**Problem Description:** \nYou might encounter an 'Invalid base64' error after executing the `aws kinesis put-record` command on your local machine. This issue can occur if you are using AWS CLI version 2. In a referenced video (4.4, around 57:42), a warning is visible as the instructor is using version 1 of the CLI.\n\n**Solution:**\nTo resolve this issue, use the argument `--cli-binary-format raw-in-base64-out` when executing the command. This option will encode your data string into base64 before transmitting it to Kinesis.\n\n```bash\naws kinesis put-record --cli-binary-format raw-in-base64-out --other-parameters\n```"
+  },
+  {
+    "id": "363335a1ea",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Error index 311297 is out of bounds for axis 0 with size 131483 when loading parquet file.",
+    "answer": "Problem description: Running `starter.ipynb` in homework’s Q1 will show this error.\n\nSolution:\n\n- Update pandas along with related dependencies to the latest versions."
+  },
+  {
+    "id": "405de99093",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Pipenv: Pipfile.lock was not created along with Pipfile",
+    "answer": "Use the following command to force the creation of `Pipfile.lock`:\n\n```bash\npipenv lock\n```"
+  },
+  {
+    "id": "84eaad3372",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Permission Denied using Pipenv",
+    "answer": "This issue is usually due to the pythonfinder module in pipenv.\n\nThe solution involves manually changing the scripts as described here: [python_finder_fix](https://github.com/sarugaku/pythonfinder/pull/120/files)"
+  },
+  {
+    "id": "00b11da94b",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Going further with Google Cloud Platform: Load and save data to GCS",
+    "answer": "There is a possibility to load and store data in a Google Cloud Storage bucket. To do that, authenticate through the IDE you are using and allow read and write access to a GCS bucket:\n\n1. **Authenticate gsutil with your GCP account:**\n   ```bash\n   gsutil config\n   ```\n\n2. **Upload the data to your GCS bucket:**\n   ```bash\n   gsutil cp path/to/local/data gs://your-bucket-name\n   ```\n\n3. **Create a service account and manage permissions:**\n   - In the GCP Console, go to \"IAM & Admin,\" then \"Service accounts.\"\n   - Create a new service account, grant it permissions (e.g., \"Storage Object Admin\" for GCS access), and generate a JSON key file.\n\n4. **Install the Google Cloud SDK:**\n   [Google Cloud SDK Installation Guide](https://cloud.google.com/sdk/docs/install)\n\n5. **Authenticate the SDK with your GCP account:**\n   ```bash\n   gcloud auth login\n   ```\n\n6. **Set your GCP project:**\n   ```bash\n   gcloud config set project YOUR_GCP_PROJECT_ID\n   ```\n\n7. **Install the Google Cloud Storage library:**\n   ```bash\n   !pip install google-cloud-storage\n   ```\n\n**Example Script**\n\nHere's how to load a CSV file from Google Cloud Storage into a pandas DataFrame:\n\n```python\nfrom google.cloud import storage\nimport pandas as pd\n\n# Set up the storage client with the service account key\nstorage_client = storage.Client.from_service_account_json('path/to/service-account-key.json')\n\n# Get the GCS bucket\nbucket = storage_client.get_bucket('your-bucket-name')\n\n# List the contents of the bucket\nblobs = bucket.list_blobs()\nfor blob in blobs:\n    print(blob.name)\n\n# Load a CSV file from the bucket into a pandas DataFrame\ncsv_blob = bucket.blob('path/to/csv/in/bucket.csv')\ndf = pd.read_csv(csv_blob.download_as_string())\n```\n\nYou can directly save output data by setting the output file name to your desired GCS URI."
+  },
+  {
+    "id": "e781391c86",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Error: Error while parsing arguments via CLI [ValueError: Unknown format code 'd' for object of type 'str']",
+    "answer": "When passing arguments to a script via command line and converting it to a 4-digit number using `f’{year:04d}’`, this error can occur.\n\nThis happens because command line inputs are read as strings. They need to be converted to integers before formatting with an f-string:\n\n```python\nyear = int(sys.argv[1])\nf'{year:04d}'\n```\n\nIf you use the `click` library, update your decorator accordingly:\n\n```python\nimport click\n\n@click.command()\n@click.option(\"--year\", help=\"Year for evaluation\", type=int)\ndef your_function(year):\n    # Your code\n```"
+  },
+  {
+    "id": "81c82a4875",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Docker: Dockerizing tips",
+    "answer": "Ensure the correct image is being used to derive from.\n\n- Copy the data from local to the Docker image using the `COPY` command to a relative path. Using absolute paths within the image might be troublesome.\n- Use paths starting from `/app` and don’t forget to do `WORKDIR /app` before actually performing the code execution.\n\n**Most Common Commands**\n\n- Build container:\n\n  ```bash\n  docker build -t mlops-learn .\n  ```\n\n- Execute the script:\n\n  ```bash\n  docker run -it --rm mlops-learn\n  ```\n\n`<mlops-learn>` is just a name used for the image and does not have any significance."
+  },
+  {
+    "id": "9ee43d55d0",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Running multiple services in a Docker container",
+    "answer": "If you are trying to run Flask with Gunicorn and an MLFlow server from the same container, defining both services in the Dockerfile with CMD will only run MLFlow and not Flask.\n\n1. **Create separate shell scripts with server run commands**:\n   \n   - **For Flask with Gunicorn:**\n     \n     Save as `script1.sh`:\n     \n     ```bash\n     #!/bin/bash\n     \ngunicorn --bind=0.0.0.0:9696 predict:app\n     ```\n\n   - **For MLFlow server:**\n     \n     Save as `script2.sh`:\n     \n     ```bash\n     #!/bin/bash\n     \nmlflow server -h 0.0.0.0 -p 5000 --backend-store-uri=sqlite:///mlflow.db --default-artifact-root=g3://zc-bucket/mlruns/\n     ```\n\n2. **Create a wrapper script** to run the above two scripts:\n\n   Save as `wrapper_script.sh`:\n   \n   ```bash\n   #!/bin/bash\n\n   # Start the first process\n   ./script1.sh &\n\n   # Start the second process\n   ./script2.sh &\n\n   # Wait for any process to exit\n   wait -n\n\n   # Exit with status of process that exited first\n   exit $?\n   ```\n\n3. **Give executable permissions to all scripts**:\n   \n   ```bash\n   chmod +x *.sh\n   ```\n\n4. **Define the last line of your Dockerfile** as:\n   \n   ```bash\n   CMD ./wrapper_script.sh\n   ```\n\n5. **Don't forget to expose all ports defined by the services**."
+  },
+  {
+    "id": "69052b9af2",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Cannot generate pipfile.lock raise InstallationError( pip9.exceptions.InstallationError)",
+    "answer": "Problem description: Cannot generate `pipfile.lock`. Raises `InstallationError( pip9.exceptions.InstallationError: Command \"python setup.py egg_info\" failed with error code 1`.\n\nSolution:\n\n- You need to force an upgrade of `wheel` and `pipenv`.\n- Run the following command:\n\n  ```bash\n  pip install --user --upgrade --upgrade-strategy eager pipenv wheel\n  ```"
+  },
+  {
+    "id": "f192a133f7",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Connecting s3 bucket to MLFLOW",
+    "answer": "How can we connect an S3 bucket to MLflow?\n\nTo connect an S3 bucket to MLflow, use `boto3` and AWS CLI to store access keys. These access keys allow `boto3` (AWS' Python API tool) to authenticate and connect with AWS servers. Without access keys, access to the bucket cannot be verified, which could prevent connection attempts by unauthorized individuals.\n\nSteps:\n\n1. **Ensure Access Keys are Available:**\n   - Access keys are essential for `boto3` to communicate with AWS servers securely.\n   - They ensure that only authorized users with the correct permissions can access the bucket.\n\n2. **Set Bucket as Public (Optional):**\n   - Alternatively, you can set the bucket to public access.\n   - In this case, access keys are not needed as anyone can access the bucket without authentication.\n\nFor more detailed information on credentials management, refer to the official documentation:\n[https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/credentials.html)"
+  },
+  {
+    "id": "d34afcb205",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Uploading to s3 fails with \"An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.\"",
+    "answer": "Even though the upload works using AWS CLI and boto3 in Jupyter notebook.\n\n**Solution:**\n\nSet the `AWS_PROFILE` environment variable (the default profile is called `default`)."
+  },
+  {
+    "id": "5bf804473e",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Docker: Dockerizing LightGBM",
+    "answer": "**Problem Description:**\n\n```plaintext\nlib_lightgbm.so Reason: image not found\n```\n\n**Solution:**\n\n- Add the following command to your Dockerfile:\n  \n  ```bash\n  RUN apt-get install libgomp1\n  ```\n  \n- Modify the installer command based on your OS if needed."
+  },
+  {
+    "id": "164b0e749d",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Error raised when executing mlflow’s pyfunc.load_model in lambda function.",
+    "answer": "When the request is processed in a lambda function, the mlflow library raises the following warning:\n\n```plaintext\n2022/09/19 21:18:47 WARNING mlflow.pyfunc: Encountered an unexpected error (AttributeError(\"module 'dataclasses' has no attribute '__version__'\")) while detecting model dependency mismatches. Set logging level to DEBUG to see the full traceback.\n```\n\n**Solution:**\n\n- Increase the memory of the lambda function."
+  },
+  {
+    "id": "fa77367725",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "4.3 FYI Notebook is end state of Video -",
+    "answer": "Just a note if you are following the video but also using the repo’s notebook. The notebook is the end state of the video which eventually uses MLflow pipelines.\n\nJust watch the video and be patient. Everything will work :)"
+  },
+  {
+    "id": "af3774c8e2",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Solution: The notebook in the repo is missing some code, include the code to log the dict_vectorizer. If the error is after using pipelines, update the predict function as seen in the video.",
+    "answer": "Ensure that the code to log the `dict_vectorizer` is included in your notebook. If you're using pipelines and encountering an error, update the `predict` function according to the video instructions to resolve the issue."
+  },
+  {
+    "id": "884bb9afb7",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Docker: Passing envs to my docker image",
+    "answer": "**Problem Description:** \n\nI was having issues because my Python script was not reading AWS credentials from environment variables. After building the image, I was running it like this:\n\n```bash\ndocker run -it homework-04 -e AWS_ACCESS_KEY_ID=xxxxxxxx -e AWS_SECRET_ACCESS_KEY=xxxxxx\n```\n\n1. **Environment Variables Order: **\n   \n   You can set environment variables like `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_SESSION_TOKEN` (if using AWS STS). Ensure these variables are passed before the image name:\n\n   ```bash\n   docker run -e AWS_ACCESS_KEY_ID=xxxxxxxx -e AWS_SECRET_ACCESS_KEY=xxxxxx -it homework-04\n   ```\n\n2. **Using an Env File:**\n\n   You can pass an env file by using the following command, assuming your env file is named `.env`:\n\n   ```bash\n   docker run -it homework-04 --env-file .env\n   ```\n\n3. **AWS Configuration Files:**\n\n   If AWS credentials are not found, the AWS SDKs and CLI will check the `~/.aws/credentials` and `~/.aws/config` files for credentials. You can map these files into your Docker container using volumes:\n\n   ```bash\n   docker run -it --rm -v ~/.aws:/root/.aws homework:v1\n   ```"
+  },
+  {
+    "id": "fd11200ead",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Docker: How to see the model in the docker container in app/?",
+    "answer": "If you need to view the model inside the Docker container for the image `svizor/zoomcamp-model:mlops-3.10.0-slim`, follow these steps:\n\n1. **Create a Dockerfile:**\n   \n   ```dockerfile\n   FROM svizor/zoomcamp-model:mlops-3.10.0-slim\n   ```\n\n2. **Build the Docker Image:**\n\n   ```bash\n   docker build -t zoomcamp_test .\n   ```\n\n3. **Run the Container and List the Contents of `/app`:**\n\n   ```bash\n   docker run -it zoomcamp_test ls /app\n   ```\n\n   The output should include `model.bin`, confirming the model is present.\n\n**Additional Instructions**\n\n- You can copy files into the Docker image by adding lines like `COPY myfile .` to the Dockerfile, and then run a script with arguments: \n\n  ```bash\n  docker run -it myimage myscript arg1 arg2\n  ```\n\n- Remember, a new build is required whenever the Dockerfile is modified.\n\n**Alternative Method**\n\nTo list the contents of `/app` when the container runs, modify the Dockerfile:\n\n```dockerfile\nFROM svizor/zoomcamp-model:mlops-3.10.0-slim\n\nWORKDIR /app\n\nCMD ls\n```\n\n- **Note:**\n  - Use `CMD` to specify commands for container runtime. \n  - Use `RUN` for building the image and `CMD` during container execution."
+  },
+  {
+    "id": "b577c9ba98",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested",
+    "answer": "To resolve this issue, make sure to build the Docker image with the platform tag. Use the following command:\n\n```bash\ndocker build -t homework:v1 --platform=linux/arm64 .\n```"
+  },
+  {
+    "id": "d41cd73af9",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "HTTPError: HTTP Error 403: Forbidden when call apply_model() in score.ipynb",
+    "answer": "Solution:\n\nInstead of using the following input file:\n\n```python\ninput_file = f'https://s3.amazonaws.com/nyc-tlc/trip+data/{taxi_type}_tripdata_{year:04d}-{month:02d}.parquet'\n```\n\nUse:\n\n```python\ninput_file = f'https://d37ci6vzurychx.cloudfront.net/trip-data/{taxi_type}_tripdata_{year:04d}-{month:02d}.parquet'\n```"
+  },
+  {
+    "id": "1355481387",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "ModuleNotFoundError: No module named 'pipenv.patched.pip._vendor.urllib3.response'",
+    "answer": "If you're encountering the error:\n\n```\nModuleNotFoundError: No module named 'pipenv.patched.pip._vendor.urllib3.response'\n```\n\nFollow these steps to resolve it:\n\n1. Reinstall `pipenv` with the following command:\n   \n   ```bash\n   pip install pipenv --force-reinstall\n   ```\n\n2. If you see an error referring to `site-packages\\pipenv\\patched\\pip\\_vendor\\urllib3\\connectionpool.py`, then:\n\n   - Upgrade `pip` and install `requests`:\n   \n     ```bash\n     pip install -U pip\n     pip install requests\n     ```"
+  },
+  {
+    "id": "b53176b742",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Error: pipenv command not found after pipenv installation",
+    "answer": "When installing pipenv using the `--user` option, you need to update the PATH environment variable to run pipenv commands. It's recommended to update your `.bashrc` or `.profile` (depending on your OS) to persist the change. Edit your `.bashrc` file to include or update a line like this:\n\n```bash\nPATH=\"<path_to_your_pipenv_install_dir>:$PATH\"\n```\n\nAlternatively, you can reinstall pipenv as root for all users:\n\n```bash\nsudo -H pip install -U pipenv\n```"
+  },
+  {
+    "id": "76ed2ad3e5",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Homework/Question 2: Namerror: name ‘year’ is not defined",
+    "answer": "For question 2, which requires you to prepare the dataframe with the output, you need to first define the `year` and `month` as integers."
+  },
+  {
+    "id": "5a508f2d8c",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Mage error: Error loading custom object at…",
+    "answer": "When returning an object from a block, you may encounter an error like this:\n\n```plaintext\nError loading custom_object at /home/src/mage_data/*************/pipelines/taxi_duration_pipe/.variables/make_predictions/output_0: [Errno 2] No such file or directory: '/home/src/mage_data/*************/pipelines/taxi_duration_pipe/.variables/make_predictions/output_0/object.joblib'\n\nError loading custom_object at /home/src/mage_data/*************/pipelines/taxi_duration_pipe/.variables/make_predictions/output_0: [Errno 2] No such file or directory: '/home/src/mage_data/*************/pipelines/taxi_duration_pipe/.variables/make_predictions/output_0/object.joblib'\n```\n\nThis occurred when returning a `numpy.ndarray`, specifically the `y_pred` variable containing the predictions for the taxi dataset. It seems Mage struggles with some types of objects and expects data structures like DataFrames instead of `numpy.ndarrays`. To resolve this, you can return a DataFrame that includes both the `y_pred` and the ride IDs."
+  },
+  {
+    "id": "e6ffad6be5",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Docker: The arm64 chip doesn’t match with Alexey’s docker image",
+    "answer": "You may get a warning similar to the one below when trying to run the docker:\n\n```\nWARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested\n\nPython 3.10.13 (main, Mar 12 2024, 12:22:40) [GCC 12.2.0] on linux\n```\n\nAdd the tag `--platform linux/amd64` when running, and it should work. For example:\n\n```bash\ndocker run -it --platform linux/amd64 --rm -p 9696:9696 homework:v2\n```"
+  },
+  {
+    "id": "2c007273b4",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Pipenv installation",
+    "answer": "Make sure you have Python and pip installed by checking their versions:\n\n```bash\npython --version\n```\n\n```bash\npip --version\n```\n\nTo install Pipenv, use the following command:\n\n```bash\npip install pipenv --user\n```"
+  },
+  {
+    "id": "00b076410d",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Jupyter: nbconvert error",
+    "answer": "If you encounter an error when converting your `notebook.ipynb` into a Python script using the command:\n\n```bash\njupyter nbconvert --to script your_notebook.ipynb\n```\n\nand you see the error message:\n\n```bash\nJupyter command `jupyter-nbconvert` not found.\n```\n\nfollow these steps:\n\n1. **Verify the Directory**\n   \n   Ensure that you're in the directory containing your Jupyter notebook.\n   \n2. **Install the Necessary Package**\n\n   If the issue persists, you may need to install the `nbconvert` package. Run the following command:\n   \n   ```bash\n   pip install nbconvert\n   ```\n\n3. **Convert the Notebook**\n\n   After installing `nbconvert`, use the following command to convert your notebook to a Python script:\n   \n   ```bash\n   jupyter nbconvert your_notebook.ipynb --to python\n   ```\n   \n   **Note:** The correct command is slightly different (`--to python` instead of `--to script`)."
+  },
+  {
+    "id": "55fcf4bc86",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Homework/Question 6: Do not forget to specify that the folder output/yellow should be created in the working directory of your docker file",
+    "answer": "For question 6, which requires you to include your script in a Dockerfile, specify the creation of the folder `output/yellow` in the working directory of your Docker container by adding the following line in your Dockerfile:\n\n```Dockerfile\nRUN mkdir -p output/yellow\n```"
+  },
+  {
+    "id": "d00a9ac4ba",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Homework/Question 6: Entry point for running scoring script in Docker container",
+    "answer": "For question 6, if you are using the script as instructed in the homework and not Flask, your entry point should be `bash`. This can be set by specifying:\n\n```dockerfile\nENTRYPOINT = [\"bash\"]\n```"
+  },
+  {
+    "id": "b9d82f5247",
+    "course": "mlops-zoomcamp",
+    "section": "Module 4: Deployment",
+    "question": "Error: Unable to locate credentials",
+    "answer": "This error appeared when I was running the Jupyter notebooks inside Visual Studio Code in Codespaces. I fixed it by running the Jupyter notebooks outside of Codespaces."
+  },
+  {
+    "id": "f831690b89",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "How do I log in to AWS ECR from the terminal using Docker?",
+    "answer": "The older `aws ecr get-login --no-include-email` command is deprecated. Use:\n\n```bash\naws ecr get-login-password --region us-west-1 | docker login --username AWS --password-stdin <ACCOUNTID>.dkr.ecr.<REGION>.amazonaws.com\n```\n\nMake sure you specify the correct AWS region where your ECR repository is located (e.g., `us-west-1`). If the region is incorrect or not set properly, the login will fail with a `400 Bad Request` error — which doesn't clearly indicate the region is the issue."
+  },
+  {
+    "id": "78b515b003",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "ImportError when using ColumnQuantileMetric with Evidently",
+    "answer": "While working on the monitoring module homework, the instructions mention using `ColumnQuantileMetric`. However, attempting to import it results in an error:\n\n```python\nImportError: cannot import name 'ColumnQuantileMetric' from 'evidently.metrics'\n```\n\nThe `ColumnQuantileMetric` class does not exist in current versions of Evidently (e.g., 0.7.8+). The correct class to use is `QuantileValue`, which serves the same purpose.\n\nAdditionally, the expected argument is not `column_name`, but `column`. This differs from other metrics like `MissingValueCount` that use `column_name`.\n\nIf you see a `ValidationError: column field required`, you are likely using the wrong parameter name.\n\nYou can use it as follows:\n\n```python\nfrom evidently.metrics import QuantileValue\n\nQuantileValue(column=\"fare_amount\", quantile=0.5)\n```\n\nThis mismatch likely results from outdated references or changes in the library’s API."
+  },
+  {
+    "id": "f71b6beef0",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Login window in Grafana",
+    "answer": "**Problem description:** When running `docker-compose up` as shown in video 5.2, if you go to [http://localhost:3000/](http://localhost:3000/), you are asked for a username and a password.\n\n**Solution:**\n- The default credentials are:\n  - **Username:** `admin`\n  - **Password:** `admin`\n- After logging in, you can set a new password.\n\nFor more details, see [Grafana documentation](https://grafana.com/docs/grafana/latest/setup-grafana/set-password/)."
+  },
+  {
+    "id": "8cb6b3176b",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Error in starting monitoring services in Linux",
+    "answer": "**Problem Description:**\n\nIn Linux, when starting services using `docker compose up --build` as shown in video 5.2, the services won’t start and instead we get the message:\n\n```\nunknown flag: --build\n```\n\n**Solution:**\n\nSince we install docker-compose separately in Linux, use the following command:\n\n```bash\ndocker-compose up --build\n```"
+  },
+  {
+    "id": "9da67b7e6d",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "KeyError ‘content-length’ when running prepare.py",
+    "answer": "**Problem:** When running `prepare.py`, encountering `KeyError: 'content-length'`.\n\n**Solution:**\n\nFrom Emeli Dral: It seems the link used in `prepare.py` to download taxi data is no longer functional. Replace the URL in the script as follows:\n\n```python\nurl = f\"https://nyc-tlc.s3.amazonaws.com/trip+data/{file}\"\n```\n\nwith:\n\n```python\nurl = f\"https://d37ci6vzurychx.cloudfront.net/trip-data/{file}\"\n```\n\nBy making this substitution in `prepare.py`, the problem should be resolved, allowing access to the necessary data."
+  },
+  {
+    "id": "b074e82488",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Evidently service exit with code 2",
+    "answer": "When running the command `docker-compose up –build` and sending data to the real-time prediction service, the service returns \"Max retries exceeded with url: /api\". This issue occurs because the evidently service exits with code 2 due to \"app.py\" in the evidently service being unable to import `from pyarrow import parquet as pq`.\n\n1. **Install the pyarrow module**:\n   \n   ```bash\n   pip install pyarrow\n   ```\n\n2. **Restart your machine**.\n\n3. **If the first and second solutions don’t work**:\n   - Comment out the `pyarrow` module in \"app.py\" of the evidently service, as it may not be used, which resolved the issue in some cases."
+  },
+  {
+    "id": "de13b97575",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "ValueError: Incorrect item instead of a metric or metric preset was passed to Report",
+    "answer": "When using Evidently, if you encounter this error, you likely forgot to add parentheses. Simply include opening and closing parentheses to resolve the issue."
+  },
+  {
+    "id": "c905f283d7",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "For the report RegressionQualityMetric()",
+    "answer": "You will get an error if you didn’t add a `target='duration_min'`.\n\nIf you want to use `RegressionQualityMetric()`, you need a `target='duration_min'` and you need this added to your `current_data['duration_min']`."
+  },
+  {
+    "id": "481e174dd4",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Found array with 0 sample(s)",
+    "answer": "```python\nValueError: Found array with 0 sample(s) (shape=(0, 6)) while a minimum of 1 is required by LinearRegression.\n```\n\nThis error occurs because the generated data is based on an early date, resulting in an empty training dataset.\n\nAdjust the following:\n\n```python\nbegin = datetime.datetime(202X, X, X, 0, 0)\n```"
+  },
+  {
+    "id": "296ea7fed1",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Adding additional metric",
+    "answer": "Getting “target columns” “prediction columns” not present errors after adding a metric.\n\nMake sure to read through the documentation on what is required or optional when adding the metric. For example, `DatasetCorrelationsMetric` doesn’t require any parameters because the metric evaluates for correlations among the features."
+  },
+  {
+    "id": "f385403427",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Grafana: Standard login does not work",
+    "answer": "When trying to log in to Grafana with the standard credentials (admin/admin), an error occurs.\n\n1. To reset the admin password, use the following command inside the Grafana container:\n\n   ```bash\n   grafana cli admin reset-admin-password admin\n   ```\n\n   **Note:** The `grafana-cli` command is deprecated. Use `grafana cli` instead.\n\n2. Enter the Docker container with Grafana:\n\n   - Find the Container ID by running:\n     \n     ```bash\n     docker ps\n     ```\n\n   - Use the Container ID to reset the password. Replace `<container_ID>` with the actual Container ID:\n\n     ```bash\n     lpep_pickup_datetime<container_ID> grafana cli admin reset-admin-password admin\n     ```\n\nThis should resolve the login issue."
+  },
+  {
+    "id": "13559b737e",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "The chart in Grafana doesn’t get updates",
+    "answer": "**Problem Description:** While my metric generation script was still running, I noticed that the charts in Grafana don’t get updated.\n\n**Solution:**\n\n- **Refresh Interval:** Set it to a small value, such as 5, 10, or 30 seconds.\n- **Timezone Setting:** Ensure you use your local timezone in a call to `pytz.timezone`. For example, change the setting from \"Europe/London\" to your local timezone to get updates."
+  },
+  {
+    "id": "4afbb7db24",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Prefect: Prefect server was not running locally",
+    "answer": "Prefect server was not running locally. The command `prefect server start` was executed but it stopped immediately.\n\n- Used Prefect Cloud to run the script.\n- Created an issue on the Prefect GitHub repository."
+  },
+  {
+    "id": "258d55402b",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Docker: no disk space left error when doing docker compose up",
+    "answer": "To resolve the \"no disk space left\" error when running `docker compose up`, follow these steps:\n\n1. Run the following command to remove unused objects (build cache, containers, images, etc.):\n   \n   ```bash\n   docker system prune\n   ```\n\n2. If you want to see what is taking up space before pruning, use:\n   \n   ```bash\n   docker system df\n   ```"
+  },
+  {
+    "id": "007cc84471",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Failed to listen on :::8080 (reason: php_network_getaddresses: getaddrinfo failed: Address family for hostname not supported)",
+    "answer": "Problem: When running `docker-compose up --build`, you may encounter this error.\n\nTo solve this issue, add the following command in the `adminer` block in your `docker-compose.yml` file:\n\n```yaml\na dminer:\n  command: php -S 0.0.0.0:8080 -t /var/www/html\n  image: adminer...\n```\n\nThis configuration specifies the command to be executed when the container starts, setting up PHP to listen on `0.0.0.0:8080`. This addresses the network error by changing the bind address."
+  },
+  {
+    "id": "5c68f358c2",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Generate Evidently Chart in Grafana",
+    "answer": "**Problem:** Can we generate charts like Evidently inside Grafana?\n\n**Solution:**\n\n- In Grafana, you can use a stat panel (just a number) and a scatter plot panel, which may require a plug-in.\n- Unfortunately, there's no native method to directly recreate the Evidently dashboard.\n- Ensure that all relevant information is logged to your Grafana data source, then design your custom plots.\n\n**External Recreation:**\n\n- Export the Evidently output in JSON with `include_render=True` for external visualization:\n  - See more details [here](https://docs.evidentlyai.com/user-guide/customization/json-dict-output).\n- For non-aggregated visuals, use the option \"`raw_data\": True\".\n  - More details [here](https://docs.evidentlyai.com/user-guide/customization/report-data-aggregation).\n\nThis specific plot with under- and over-performance segments is particularly useful during debugging and might be easier to view ad hoc using Evidently."
+  },
+  {
+    "id": "ebd339f9a5",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Error when importing evidently package because of numpy version upgraded",
+    "answer": "A new version of Numpy has just been released v 2.0.0 (on Jun 16, 2024), which causes an import error of the package.\n\n```python\n\"`np.chararray` is deprecated and will be removed from \"\n\n419     \"the main namespace in the future. Use an array with a string \"\n\n420     \"or bytes dtype instead.\", DeprecationWarning, stacklevel=2): `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.\n```\n\nOr\n\n```python\nAttributeError: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.\n```\n\nYou can solve it by reinstalling numpy to a previous version 1.26.4. Just run:\n\n```bash\npython -m pip install numpy==1.26.4\n```\n\nOr modify the `requirements.txt` to freeze the version:\n\n```text\nnumpy==1.26.4\n```"
+  },
+  {
+    "id": "beef541941",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Bind for 0.0.0.0:5432 failed: port is already allocated",
+    "answer": "**Problem:** When trying to start the postgres services through `docker-compose up`, this error occurs:\n\n```\nBind for 0.0.0.0:5432 failed: port is already allocated\n```\n\n**Note:** This issue occurs because port 5432 is already used by another service.\n\n**Solution:** Update the port mapping for the Postgres service to `5433:5432` in the Docker Compose YAML file."
+  },
+  {
+    "id": "5ad72730d6",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Table/database not showing on Grafana dashboard",
+    "answer": "**Problem:**\n\nFor version 5.4, when trying to create a new dashboard, Grafana does not list the `dummy_metrics` table in the query tab.\n\n**Note:** Change the datasource name from the default \"PostgreSQL.\"\n\n**Solution 1:**\n\nUpdate the `config/grafana_datasources.yaml` with the following:\n\n```yaml\n# List of datasources to insert/update\n# Available in the database\ndatasources:\n\n- name: NewPostgreSQL\n  type: postgres\n  url: db:5432\n  user: postgres\n  secureJsonData:\n    password: 'example'\n  jsonData:\n    sslmode: 'disable'\n    database: test\n```\n\n**Solution 2:**\n\n- Use the \"Code\" option rather than the \"Builder\" option.\n- Load the data using your own SQL queries. See the screenshot below (box highlighted in red).\n- Tip: If you write your `FROM` statement first, the `SELECT` options can be done through auto-complete.\n\n<{IMAGE:image_1}>"
+  },
+  {
+    "id": "26a7d0d9b6",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Adminer Not Loaded",
+    "answer": "**Problem:** After running Docker Compose, Adminer cannot be accessed on [http://127.0.0.1:8080/](http://127.0.0.1:8080/index.php)\n\n**Solution:** Add `index.php` after the URL, so the URL will be [http://127.0.0.1:8080/index.php](http://127.0.0.1:8080/index.php)"
+  },
+  {
+    "id": "44a68a830c",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Grafana: UI Changes",
+    "answer": "**Problem:** When selecting a column from the table, the error message is displayed:\n\n```\nno time column: no time column found\n```\n\n<{IMAGE:image_1}>\n\n**Solution:** Add a timestamp column in the query builder.\n\n<{IMAGE:image_2}>"
+  },
+  {
+    "id": "982fa87351",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Runtime Error: Failed to Reach API on Prefect",
+    "answer": "**Problem:** When running `evidently_metrics_calculation.py`, the following error is shown:\n\n```\nRuntimeError: Cannot create flow run. Failed to reach API at https://api.prefect.cloud/api/accounts/ee976605-4ca7-4a27-b5e3-0a37da3c7678/workspaces/78b23cf5-38bb-4d8b-9888-5bf8070d6d62/\n```\n\n**Solution:**\n\n- Register or sign up at [https://app.prefect.cloud/account/](https://app.prefect.cloud/account/)\n\n<{IMAGE:image_1}>"
+  },
+  {
+    "id": "93dfb7d96c",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Grafana dashboard error after reset: db query error: pq: database “test” does not exist",
+    "answer": "Problem: You’ve already loaded your data, created a dashboard, and saved it. However, upon running `docker-compose up` after saving the dashboard, you encounter this error: \n\n```plaintext\ndb query error: pq: database “test” does not exist\n```\n\n<{IMAGE:image_1}>\n\nSolution:\n\nThis error indicates you haven’t run the DB initialization code. If you did run it before and even saw results, the issue likely arises because you restarted the docker-compose services.\n\nThe default `docker-compose.yml` file doesn’t have a volume for the Postgres DB. This means every restart will delete the DB data.\n\nTo resolve this:\n\n1. **If not planning to restart the services again:** Simply rerun the DB initialization and filling code of your exercise.\n\n2. **If you plan to restart services frequently:**\n   - Add a volume to your PostgreSQL service in the `docker-compose.yml` file:\n\n     ```yaml\n     volumes:\n       - ./data/postgres:/var/lib/postgresql/data\n     ```\n\n   - Note: Ensure you create a `./data` directory in your project.\n\n3. To attach the volume, run the following:\n\n   ```bash\n   docker-compose down\n   docker-compose up --build\n   ```"
+  },
+  {
+    "id": "4d86e49240",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Are there any alternative to Evidently on cloud platforms?",
+    "answer": "There are several alternatives to Evidently for monitoring machine learning models in the cloud. Here are a few options on popular cloud platforms:\n\n- **Google Cloud Platform (GCP):** AI Platform Predictions with Cloud Monitoring & Logging\n\n- **Microsoft Azure:** Azure Machine Learning\n\n- **Amazon Web Services (AWS):** Amazon SageMaker Model Monitor\n\nThese services provide model monitoring capabilities, allowing you to track the performance and data quality of your machine learning models within the cloud environment."
+  },
+  {
+    "id": "215ad00cfc",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "docker.errors.DockerException: Error while fetching server API version: HTTPConnection.request() got an unexpected keyword argument 'chunked'",
+    "answer": "- Instead of using:\n  \n  ```bash\n  docker-compose up --build\n  ```\n  \n- Use:\n\n  ```bash\n  docker compose up --build\n  ```"
+  },
+  {
+    "id": "f2458f5a26",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Docker: Docker-Compose deprecated",
+    "answer": "Docker Compose v1 is deprecated from April 2023 onwards. More information on why v2 is better can be found in this blog post:\n\n[New Docker Compose V2 and V1 Deprecation](https://www.docker.com/blog/new-docker-compose-v2-and-v1-deprecation/)"
+  },
+  {
+    "id": "b7625d600a",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "psycopg.OperationalError: connection failed: connection to server at \"127.0.0.1\", port 5432 failed: FATAL:  password authentication failed for user \"postgres\"",
+    "answer": "It could be that there is already another Docker container running (for example, from a previous session).\n\nTo resolve this issue:\n\n1. Check for running containers:\n   ```bash\n   docker ps\n   ```\n2. Stop the running container:\n   ```bash\n   docker stop <container_name_or_ID>\n   ```"
+  },
+  {
+    "id": "6a3a0cc252",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Login to DB not working in Adminer UI even after right DB, user and password.",
+    "answer": "**Problem:** Adminer UI is not responding or showing database details, even with the correct database, user, and password.\n\n<{IMAGE:image_1}>\n\n---\n\n**Solution:** Try accessing the database from the command line using `psql`.\n\nYou can quickly install `psql` via package managers such as `sudo apt`.\n\nHere is an example:\n\n```bash\n(base) cpl@inpne-ed-lab003:~$ psql -h localhost -p 5432 -U postgres\n\nPassword for user postgres: \n\npsql (14.12 (Ubuntu 14.12-0ubuntu0.22.04.1), server 16.4 (Debian 16.4-1.pgdg120+1))\n\nWARNING: psql major version 14, server major version 16.\nSome psql features might not work.\n\nType \"help\" for help.\n\npostgres=# \\l\n\nList of databases\n\n Name    |  Owner   | Encoding |  Collate   |   Ctype    |   Access privileges \n-----------+----------+----------+------------+------------+-----------------------\npostgres  | postgres | UTF8     | en_US.utf8 | en_US.utf8 | \ntemplate0 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +\n          |          |          |            |            | postgres=CTc/postgres\ntemplate1 | postgres | UTF8     | en_US.utf8 | en_US.utf8 | =c/postgres          +\n          |          |          |            |            | postgres=CTc/postgres\ntest      | postgres | UTF8     | en_US.utf8 | en_US.utf8 |\n(4 rows)\n```"
+  },
+  {
+    "id": "f4dcbdd4ee",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Is it mandatory to use a reference dataset when generating a report with Evidently?",
+    "answer": "No. While Evidently is designed to compare a reference dataset with a current one, it can also be used without a reference dataset.\n\nIn such cases, you can pass `reference_data=None` when creating the report. This is useful for generating descriptive statistics or univariate analyses on a single dataset (e.g., using `ColumnSummaryMetric`, `DatasetMissingValuesMetric`, etc.)."
+  },
+  {
+    "id": "28676cfdf9",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "What version of Evidently AI is used in the course?",
+    "answer": "In the video (current cohort: 2025), the Evidently version used is 0.4.17. However, any version up to 0.6.7 will work with the code provided in the video and the repository.\n\nNote that newer versions have changed the APIs, so the code in the video may not run with versions beyond 0.6.7."
+  },
+  {
+    "id": "04411f29bb",
+    "course": "mlops-zoomcamp",
+    "section": "Module 5: Monitoring",
+    "question": "Grafana fails with 'Failed to create provisioner' when running `docker-compose up --build`",
+    "answer": "If you see this error from Grafana on startup:\n\n```\n✗ Failed to create provisioner: Failed to read dashboards config: could not parse provisioning config file: dashboards.yaml error: read /etc/grafana/provisioning/dashboards/dashboards.yaml: is a directory\n```\n\nThe Grafana `volumes` in your `docker-compose.yml` are mounting a YAML file path, but Grafana sees a directory at that path. Change file references to directory references in the Grafana `volumes` section.\n\nInstead of:\n\n```\n/etc/grafana/provisioning/dashboards/dashboards.yaml\n```\n\nuse:\n\n```\n/etc/grafana/provisioning/dashboards/dashboards\n```\n\nApply the same change to all file paths in the Grafana `volumes` block."
+  },
+  {
+    "id": "9dedd0bb1c",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Evidently: Import Error",
+    "answer": "When running the command:\n\n```python\nfrom evidently import ColumnMapping\n```\n\nThe following import error occurs:\n\n```plaintext\nImportError: cannot import name 'ColumnMapping' from 'evidently'\n```\n\n1. Uninstall the latest version of `evidently`:\n   \n   ```bash\n   pip uninstall evidently -y\n   ```\n\n2. Install an older compatible version:\n   \n   ```bash\n   pip install evidently==0.4.18\n   ```\n\n3. Restart the kernel to reload the environment."
+  },
+  {
+    "id": "ce86e574f1",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Error following video 6.2: mlflow=1.27.0",
+    "answer": "When following the video instructions and running the Dockerfile, I encountered an error that the Dockerfile build failed on line 8 due to no matching distribution for `mlflow==1.27.0`. Below is the code output:\n\n```bash\n4.900 ERROR: No matching distribution found for mlflow==1.27.0\n\n4.901 ERROR: Couldn't install package: {}\n\n4.901  Package installation failed...\n\n------\n\nDockerfile:8\n\n--------------------\n\n6 |     COPY [ \"Pipfile\", \"Pipfile.lock\", \"./\" ]\n\n7 |\n\n8 | >>> RUN pipenv install --system --deploy\n\n9 |\n\n10 |     COPY [ \"lambda_function.py\", \"model.py\", \"./\" ]\n\n--------------------\n\nERROR: failed to solve: process \"/bin/sh -c pipenv install --system --deploy\" did not complete successfully: exit code: 1\n```"
+  },
+  {
+    "id": "2ce73ee58a",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Get an error ‘Unable to locate credentials’ after running localstack with kinesis",
+    "answer": "You may encounter the error `{'errorMessage': 'Unable to locate credentials', …` from the print statement in `test_docker.py` after running localstack with Kinesis.\n\nTo resolve this issue:\n\n1. In the `docker-compose.yaml` file, add the following environment variables:\n   - `AWS_ACCESS_KEY_ID`\n   - `AWS_SECRET_ACCESS_KEY`\n   \n   You can assign any value to these variables (e.g., `abc`).\n\n2. Alternatively, you can run the following command:\n\n   ```bash\n   aws --endpoint-url http://localhost:4566 configure\n   ```\n\n   Provide random values for the following prompts:\n   - AWS Access Key ID\n   - AWS Secret Access Key\n   - Default region name\n   - Default output format\n\n<END>"
+  },
+  {
+    "id": "5137e6c204",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Get an error ‘unspecified location constraint is incompatible’",
+    "answer": "You may get an error while creating a bucket with LocalStack and the Boto3 client:\n\n```python\nbotocore.exceptions.ClientError: An error occurred (IllegalLocationConstraintException) when calling the CreateBucket operation: The unspecified location constraint is incompatible for the region specific endpoint this request was sent to.\n```\n\nTo fix this, instead of creating a bucket via:\n\n```python\ns3_client.create_bucket(Bucket='nyc-duration')\n```\n\nCreate it with:\n\n```python\ns3_client.create_bucket(Bucket='nyc-duration', CreateBucketConfiguration={'LocationConstraint': AWS_DEFAULT_REGION})\n```"
+  },
+  {
+    "id": "cb04adb824",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Get an error \"<botocore.awsrequest.AWSRequest object at 0x7fbaf2666280>\" after running an AWS CLI command",
+    "answer": "When executing an AWS CLI command (e.g., `aws s3 ls`), you may encounter the error:\n\n```plaintext\n<botocore.awsrequest.AWSRequest object at 0x7fbaf2666280>\n```\n\nTo fix this, set the AWS CLI environment variables:\n\n```bash\nexport AWS_DEFAULT_REGION=eu-west-1\nexport AWS_ACCESS_KEY_ID=foobar\nexport AWS_SECRET_ACCESS_KEY=foobar\n```\n\nTheir values are not important; any values will suffice."
+  },
+  {
+    "id": "cc6b6f1481",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Pre-commit: Triggers an error at every commit: “mapping values are not allowed in this context”",
+    "answer": "At every commit, the above error is thrown and no pre-commit hooks are run.\n\nEnsure the indentation in `.pre-commit-config.yaml` is correct, particularly the 4 spaces ahead of every `repo` statement."
+  },
+  {
+    "id": "611e6f015f",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Could not reconfigure pytest from zero after getting done with previous folder",
+    "answer": "<{IMAGE:image_1}>\n\nNo option to remove pytest test\n\n- Remove the `.vscode` folder located in the folder you previously used for testing. For example, if you chose to test in the \"week6-best-practices\" folder, remove the `.vscode` directory inside that folder."
+  },
+  {
+    "id": "fa23739c18",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Empty Records in Kinesis Get Records with LocalStack",
+    "answer": "**Problem Description**\n\nFollowing video 6.3, at minute 11:23, the get records command returns empty records.\n\n**Solution**\n\nAdd `--no-sign-request` to the Kinesis get records call:\n\n```bash\naws --endpoint-url=http://localhost:4566 kinesis get-records --shard-iterator [...] --no-sign-request\n```"
+  },
+  {
+    "id": "226f8425c4",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "In Powershell, Git commit raises utf-8 encoding error after creating pre-commit yaml file",
+    "answer": "When executing the following command in PowerShell, an error occurs:\n\n```bash\ngit commit -m 'Updated xxxxxx'\n```\n\nThe error message is:\n\n```bash\nAn error has occurred: InvalidConfigError:\n\n==> File .pre-commit-config.yaml\n\n=====> 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte\n```\n\nSet UTF-8 encoding when creating the pre-commit YAML file:\n\n```powershell\npre-commit sample-config | out-file .pre-commit-config.yaml -encoding utf8\n```"
+  },
+  {
+    "id": "b55fea0fc7",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Git: Commit with pre-commit hook raises error ‘'PythonInfo' object has no attribute 'version_nodot'",
+    "answer": "When attempting to commit in Git, the following error occurs:\n\n```bash\ngit commit -m 'Updated xxxxxx'\n\n[INFO] Initializing environment for GitHub.\n[INFO] Installing environment for GitHub.\n[INFO] Once installed this environment will be reused.\n\nAn unexpected error has occurred: CalledProcessError: command:\n…\nreturn code: 1\nexpected return code: 0\nstdout:\nAttributeError: 'PythonInfo' object has no attribute 'version_nodot'\n```\n\nTo resolve this issue, clear the app-data of the virtual environment using the following command:\n\n```bash\npython -m virtualenv api -vvv --reset-app-data\n```"
+  },
+  {
+    "id": "0cfb31c221",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Pytest error 'module not found' when using custom packages in the source code",
+    "answer": "Project structure:\n\n```\n/sources/production/model_service.py\n/sources/tests/unit_tests/test_model_service.py\n```\n\nThe test file contains:\n\n```python\nfrom production.model_service import ModelService\n```\n\n- Running `python test_model_service.py` from the `sources` directory works.\n- Running `pytest ./test/unit_tests` fails with: `No module named 'production'`.\n\n- Use the following command:\n  \n  ```bash\n  python -m pytest ./test/unit_tests\n  ```\n\n- `pytest` does not automatically add to the `sys.path` the path where it is run.\n- Alternatives include:\n  - Running `python -m pytest`\n  - Exporting the `PYTHONPATH` before executing `pytest`:\n    \n    ```bash\n    export PYTHONPATH=.\n    ```"
+  },
+  {
+    "id": "02ff7e82ce",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Pytest error ‘module not found’ when using pre-commit hooks if using custom packages in the source code",
+    "answer": "Project structure:\n\n```\n/sources/production/model_service.py\n/sources/tests/unit_tests/test_model_service.py \n```\n\nIn `test_model_service.py`:\n\n```python\nfrom production.model_service import ModelService\n```\n\nA `git commit -t ‘test’` raises `No module named ‘production’` when calling the pytest hook:\n\n```yaml\n- repo: local\n\n  hooks:\n    - id: pytest-check\n      name: pytest-check\n      entry: pytest\n      language: system\n      pass_filenames: false\n      always_run: true\n      args: [\n        \"tests/\"\n      ]\n```\n\nUse this hook instead:\n\n```yaml\n- repo: local\n\n  hooks:\n    - id: pytest-check\n      name: pytest-check\n      entry: \"./sources/tests/unit_tests/run.sh\"\n      language: system\n      types: [python]\n      pass_filenames: false\n      always_run: true\n```\n\nEnsure that `run.sh` sets the correct directory and runs pytest:\n\n```bash\ncd \"$(dirname \"$0\")\"\n\ncd ../..\n\nexport PYTHONPATH=.\n\npipenv run pytest ./tests/unit_tests\n```"
+  },
+  {
+    "id": "a345ebd834",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Github actions: Permission denied error when executing script file",
+    "answer": "This issue occurs when running the following step in the CI YAML file definition:\n\n```yaml\nyml\n- name: Run Unit Tests\n  working-directory: \"sources\"\n  run: ./tests/unit_tests/run.sh\n```\n\nWhen executing the GitHub CI action, the following error occurs:\n\n```\n…/tests/unit_test/run.sh Permission error\n\nError: Process completed with error code 126\n```\n\nTo resolve this issue, add execution permission to the script and commit the changes:\n\n```bash\ngit update-index --chmod=+x ./sources/tests/unit_tests/run.sh\n```"
+  },
+  {
+    "id": "560c0eb368",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Managing Multiple Docker Containers with docker-compose profile",
+    "answer": "When a Docker Compose file contains many containers, running them all may consume too many resources. There is often a need to easily select only a group of containers while ignoring irrelevant ones during testing.\n\n1. Add `profiles: [\"profile_name\"]` in the service definition within your `docker-compose.yml` file.\n\n2. Start the service with the specific profile using the command:\n\n   ```bash\n   docker-compose --profile profile_name up\n   ```"
+  },
+  {
+    "id": "8e6e50be33",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "AWS CLI: Why do AWS CLI commands throw <botocore.awsrequest.AWSRequest object at 0x74c89c3562d0> type messages when listing or creating AWS S3 buckets with LocalStack?",
+    "answer": "If you encounter such messages when trying to list your AWS S3 buckets (e.g., `aws --endpoint-url=http://localhost:4566 s3 ls`), you can try configuring AWS with the same region, access key, and secret key as those in your `docker-compose` file.\n\nTo configure AWS CLI, follow these steps:\n\n1. After installing the AWS CLI, run the following command in your terminal:\n   \n   ```bash\n   aws configure\n   ```\n\n2. Input the required information when prompted:\n   - **AWS Access Key ID:** [Example: `abc`]\n   - **AWS Secret Access Key:** [Example: `xyz`]\n   - **Default region name:** [Example: `eu-west-1`]"
+  },
+  {
+    "id": "16099520dd",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "AWS: Regions need to match in docker-compose",
+    "answer": "**Problem Description**\n\nIf you are experiencing issues with integration tests and Kinesis, ensure that your AWS regions are consistent between docker-compose and your local configuration. Otherwise, you may create a stream in an incorrect region.\n\n**Solution Description**\n\n- Set the region in your AWS config file:\n  \n  ```plaintext\n  ~/.aws/config\n  ```\n  \n  Example:\n  \n  ```text\n  region = us-east-1\n  ```\n\n- Ensure that the region in your `docker-compose.yaml` is also set:\n  \n  ```yaml\n  environment:\n    - AWS_DEFAULT_REGION=us-east-1\n  ```"
+  },
+  {
+    "id": "330f9005e2",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Isort Pre-commit",
+    "answer": "Pre-commit command was failing with isort repo.\n\n- Set version to `5.12.0`"
+  },
+  {
+    "id": "abb38848b5",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "How to destroy infrastructure created via GitHub Actions",
+    "answer": "Infrastructure created in AWS with CD-Deploy Action needs to be destroyed.\n\nTo destroy the infrastructure from local:\n\n```bash\nterraform init -backend-config=\"key=mlops-zoomcamp-prod.tfstate\" --reconfigure\n```\n\n```bash\nterraform destroy --var-file vars/prod.tfvars\n```"
+  },
+  {
+    "id": "b396205ad7",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Error \"[Errno 13] Permission denied: '/home/ubuntu/.aws/credentials'\" when running any aws command",
+    "answer": "After installing AWS CLI v2 on Linux, you may encounter a permission error when trying to run AWS commands that require access to your credentials. For example, when running `aws configure`, you might insert the key and secret but receive a permission error.\n\nThe issue arises because the `ubuntu` user does not have permission to read or write files in the `.aws` folder, and the `credentials` and `config` files do not exist. To resolve this:\n\n1. Navigate to the `.aws` folder, typically located at `/home/ubuntu/.aws`.\n\n2. Create empty `credentials` and `config` files:\n\n   ```bash\n   touch credentials\n   touch config\n   ```\n\n3. Modify the file permissions:\n\n   ```bash\n   sudo chmod -R 777 credentials\n   sudo chmod -R 777 config\n   ```\n\n4. Run `aws configure`, modify the keys and secret, and save them to the `credentials` file. You can then execute AWS commands from your Python scripts or the command line."
+  },
+  {
+    "id": "b0300fc9b8",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Why do I get a `ValueError: Invalid endpoint` error when using Boto3 with Docker Compose services?",
+    "answer": "Boto3 does not support underscores (`_`) in service URLs. Naming your Docker Compose services with underscores will cause Boto3 to throw an error when connecting to the endpoint. (Source: [GitHub Issue](https://github.com/boto/boto3/issues/703))\n\nIncorrect Docker Compose configuration with underscores:\n\n```yaml\nversion: '3.8'\n\nservices:\n  backend_service:\n    image: my_backend_image\n    ...\n  s3_service:\n    image: localstack/localstack\n    ...\n```\n\nRename your services to avoid using underscores. For example, change `s3_service` to `s3service`. Then:\n\n```python\nclient = boto3.client('s3', endpoint_url=\"http://s3service:4566\")\n```\n\nwill work."
+  },
+  {
+    "id": "2eb2863faf",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Why do I get a “ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all()” error when doing unit test that involves comparing two data frames?",
+    "answer": "When you compare two Pandas DataFrames, the result is also a DataFrame. The same is true for Pandas Series. To properly compare them, you should not compare data frames directly.\n\nInstead, convert the actual and expected DataFrames into a list of dictionaries, then use `assert` to compare the resulting lists.\n\nExample:\n\n```python\nactual_df_list_dicts = actual_df.to_dict('records')\n\nexpected_df_list_dicts = expected_df.to_dict('records')\n\nassert actual_df_list_dicts == expected_df_list_dicts\n```"
+  },
+  {
+    "id": "ba23a5c708",
+    "course": "mlops-zoomcamp",
+    "section": "Module 6: Best Practices",
+    "question": "Pre-commit fails with 'RuntimeError: The Poetry configuration is invalid'",
+    "answer": "If pre-commit fails with something like:\n\n```\nRuntimeError: The Poetry configuration is invalid:\n  - data.extras.pipfile_deprecated_finder[2] must match pattern ^[a-zA-Z-_.0-9]+$\n```\n\nThis is caused by a version mismatch between the version of the tool pinned in `pre-commit-config.yaml` and the version installed via `Pipfile.lock`. Check the versions in `Pipfile.lock` and update `pre-commit-config.yaml` to match (or vice versa)."
+  },
+  {
+    "id": "716ff05962",
+    "course": "mlops-zoomcamp",
+    "section": "Capstone Project",
+    "question": "pytest doesn't recognize my installed libraries, but the script works in the terminal. Why?",
+    "answer": "This usually happens because VS Code is using a different Python interpreter than the one in your terminal. As a result, pytest can't see the packages installed in your virtual environment.\n\nHow to fix:\n\n1. In your terminal, run:\n   \n   ```bash\n   which python\n   ```\n\n2. In VS Code, open the command palette (Ctrl+Shift+P) and select:\n   \n   `Python: Select Interpreter`\n\n3. Choose the same interpreter shown in step 1."
+  },
+  {
+    "id": "0a7c21fee9",
+    "course": "mlops-zoomcamp",
+    "section": "Capstone Project",
+    "question": "Is it a group project?",
+    "answer": "No, the capstone is a solo project."
+  },
+  {
+    "id": "9ae63755b8",
+    "course": "mlops-zoomcamp",
+    "section": "Capstone Project",
+    "question": "Do we submit 2 projects, what does attempt 1 and 2 mean?",
+    "answer": "You only need to submit one project. If the submission at the first attempt fails, you can improve it and re-submit during the attempt 2 submission window.\n\n- If you want to submit two projects for the experience and exposure, you must use different datasets and problem statements.\n- If you can’t make it to the attempt 1 submission window, you still have time to catch up to meet the attempt 2 submission window.\n\nRemember that the submission does not count towards the certification if you do not participate in the peer review of three peers in your cohort."
+  },
+  {
+    "id": "b6c7eb17d8",
+    "course": "mlops-zoomcamp",
+    "section": "Capstone Project",
+    "question": "How is my capstone project going to be evaluated?",
+    "answer": "Each submitted project will be evaluated by three randomly assigned students who have also submitted the project.\n\nYou will also be responsible for grading the projects of three fellow students yourself. Please be aware that not complying with this rule will result in failing to achieve the Certificate at the end of the course.\n\nThe final grade you receive will be the median score of the grades from the peer reviewers.\n\nThe peer review criteria for evaluation must follow the guidelines defined here (TBA for link)."
+  },
+  {
+    "id": "0d200c8c58",
+    "course": "mlops-zoomcamp",
+    "section": "Capstone Project",
+    "question": "Homework: What is the criteria of scoring home work?",
+    "answer": "Each homework assignment has a scoring system based on the following criteria:\n\n- Answering 6 questions correctly: **6 points**\n- Adding 7 public learning items: **7 points**\n- Adding 1 valid question to the FAQ: **1 point**\n\nIn total, you can earn up to **14 points** per homework, which will contribute to the leaderboard ranking."
+  }
+]

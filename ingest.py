@@ -24,7 +24,7 @@ def build_index(documents):
     """Initializes and fits the search index with the provided documents."""
     index = Index(
         text_fields=["question", "section", "answer"],  # full text search for matching keyword and also semantic search
-        keyword_fields=["course"]        # Exact matching only
+        keyword_fields=["course"]          # Exact matching only
     )
-    index.fit(documents)        # Generated inverted index kind of DS for fast search operations
+    index.fit(documents)                   # Generated inverted index kind of DS for fast search operations
     return index

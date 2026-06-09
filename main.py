@@ -1,15 +1,18 @@
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
-
 from ingest import fetch_documents, build_index
-
 
 # Load environment variables (GEMINI_API_KEY)
 load_dotenv()
 
 # Initialize the Gemini client
 client = genai.Client()
+
+print("Initializing FAQ Assistant...")
+documents = fetch_documents()
+index = build_index(documents)
+
 
 INSTRUCTIONS = """
 Your task is to answer questions from the course participants
@@ -28,88 +31,102 @@ Context:
 {context}
 """
 
+class RAGBase:
+    def __init__(
+        self,
+        index,
+        llm_client,
+        instructions=INSTRUCTIONS,
+        prompt_template=USER_PROMPT_TEMPLATE,
+        course='llm-zoomcamp',
+        model='gemini-2.5-flash-lite'
+    ):
+        self.index = index
+        self.llm_client = llm_client
+        self.instructions = instructions
+        self.course = course
+        self.prompt_template = prompt_template
+        self.model = model
 
+    def search(self, query):
+        """Searches the index for relevant documents based on the query.
+        Filtering - based on llm-zoomcamp course
+        Ranking -  based on top K (or top 5) results
+        """
 
-def search(query, index):
-    """Searches the index for relevant documents based on the query.
-       Filtering - based on llm-zoomcamp course
-       Ranking -  based on top K (or top 5) results
-    """
+        boost_dict = {'question': 3.0, 'section': 0.4}  
+        filter_dict = {'course': self.course}
 
-    boost_dict = {'question': 2.0, 'section': 0.4}  
-    filter_dict = {'course': 'llm-zoomcamp'}        
+        # Get the Data source,, Used index instead of vector DB for now
 
-    # Get the Data source,, Used index instead of vector DB for now
-
-    return index.search(
-        query,
-        boost_dict=boost_dict,      # Weights adjustments, more weight for question,  1 for 100%
-        filter_dict=filter_dict,    # Filtering search (full match)
-        num_results=5               # Ranking
-    )
-
-def build_context(search_results):
-    """Converts search results into a formatted string for the LLM context."""
-    lines = []
-    for doc in search_results:
-        lines.append(doc["section"])
-        lines.append(f"Q: {doc['question']}")
-        lines.append(f"A: {doc['answer']}")
-        lines.append("")
-    return "\n".join(lines).strip()
-
-def build_prompt(question, search_results):
-    """Combines instructions, context, and question into a final prompt."""
-    context = build_context(search_results)
-    prompt_body = USER_PROMPT_TEMPLATE.format(
-        question=question,
-        context=context
-    )
-    #return f"{INSTRUCTIONS.strip()}\n\n{prompt_body.strip()}"
-    return f"{prompt_body.strip()}"
-
-def llm(prompt, model="gemini-2.5-flash-lite"):
-    """Sends the prompt to the Gemini model and returns the text response."""
-
-    # response = client.models.generate_content(
-    #     model="gemini-2.5-flash-lite",
-    #     contents=prompt,
-    # )
-
-    response = client.models.generate_content(
-        contents=prompt,
-        model=model,
-        # THE FIX: Isolate your system prompt rules here
-        config=types.GenerateContentConfig(
-            system_instruction=INSTRUCTIONS.strip()         # system_instruction is equivalant of developer role
+        return index.search(
+            query,
+            boost_dict=boost_dict,      # Weights adjustments, more weight for question,  1 for 100%
+            filter_dict=filter_dict,    # Filtering search (full match)
+            num_results=5               # Ranking
         )
-    )
 
-    # Extract token metrics from the API response
-    input_tokens = response.usage_metadata.prompt_token_count
-    output_tokens = response.usage_metadata.candidates_token_count
+    def build_context(self, search_results):
+        """Converts search results into a formatted string for the LLM context."""
+        lines = []
+        for doc in search_results:
+            lines.append(doc["section"])
+            lines.append(f"Q: {doc['question']}")
+            lines.append(f"A: {doc['answer']}")
+            lines.append("")
+        return "\n".join(lines).strip()
 
-    # Calculate total cost based on Gemini 2.5 Flash-Lite pricing
-    total_cost = (input_tokens * (0.10 / 1_000_000)) + (output_tokens * (0.40 / 1_000_000))
-    print(f"API Cost for this call: ${total_cost:.8f}")
+    def build_prompt(self, question, search_results):
+        """Combines instructions, context, and question into a final prompt."""
+        context = self.build_context(search_results)
+        prompt_body = self.prompt_template.format(
+            question=question,
+            context=context
+        )
+        #return f"{INSTRUCTIONS.strip()}\n\n{prompt_body.strip()}"
+        return f"{prompt_body.strip()}"
+
+    def llm(self, prompt):
+        """Sends the prompt to the Gemini model and returns the text response."""
+
+        # response = client.models.generate_content(
+        #     model="gemini-2.5-flash-lite",
+        #     contents=prompt,
+        # )
+
+        response = client.models.generate_content(
+            contents=prompt,
+            model=self.model,
+            # THE FIX: Isolate your system prompt rules here
+            config=types.GenerateContentConfig(
+                system_instruction=self.instructions.strip()         # system_instruction is equivalant of developer role
+            )
+        )
+
+        # Extract token metrics from the API response
+        input_tokens = response.usage_metadata.prompt_token_count
+        output_tokens = response.usage_metadata.candidates_token_count
+
+        # Calculate total cost based on Gemini 2.5 Flash-Lite pricing
+        total_cost = (input_tokens * (0.10 / 1_000_000)) + (output_tokens * (0.40 / 1_000_000))
+        print(f"API Cost for this call: ${total_cost:.8f}")
 
 
-    return response.text
+        return response.text
 
-def rag(query, index):
-    """Executes the complete Retrieval-Augmented Generation process."""
+    def rag(self, query):
+        """Executes the complete Retrieval-Augmented Generation process."""
 
-    search_results = search(query, index)
-    prompt = build_prompt(query, search_results)
-    answer = llm(prompt)
-    return answer
+        search_results = self.search(query)
+        prompt = self.build_prompt(query, search_results)
+        answer = self.llm(prompt)
+        return answer
+
+
 
 def main():
     """Main entry point to initialize the system and run a query."""
 
-    print("Initializing FAQ Assistant...")
-    documents = fetch_documents()
-    index = build_index(documents)
     
     # query = "How to get the course completion certificate?"
     # query = "When does the next course starts"
@@ -119,7 +136,8 @@ def main():
     query = "can I use Groq or ollama for this course"
     print(f"\nUser Question: {query}")
     
-    answer = rag(query, index)
+    ragAssitant = RAGBase(index, client) 
+    answer = ragAssitant.rag(query)
     
     print("\n--- Answer ---")
     print(answer)

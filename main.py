@@ -17,16 +17,13 @@ client = genai.Client()
 
 
 
-
-
 INSTRUCTIONS = """
-Your task is to answer questions from the course participants
-based on the provided context.
+You're a course teaching assistant.
+Answer the QUESTION based on the CONTEXT from the FAQ database.
+Use only the facts from the CONTEXT when answering the QUESTION.
+If the answer is not found in the context, respond with "I don't know."
+""".strip()
 
-Use the context to find relevant information and provide accurate
-answers. If the answer is not found in the context,
-respond with "I don't know."
-"""
 
 USER_PROMPT_TEMPLATE = """
 Question:
@@ -169,13 +166,13 @@ def main():
     sqlite_index= connect_to_database()
 
 
-    # query = "How to get the course completion certificate?"
+    #query = "How to get the course completion certificate?"
     # query = "When does the next course starts"
     # query = "Do I get certification after completion"
     # query = "Are there any lectures/videos? Where are they?"
     # query = "can I use google ADK for this course"       # not in FAQ
     # query = "can I use Groq or ollama for this course"
-    query = "How do  I run Olama locally for this course"
+    query = "How do I run Olama"
     print(f"\nUser Question: {query}")
     
     ragAssitant = RAGBase(sqlite_index, client) 

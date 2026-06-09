@@ -1,5 +1,8 @@
 import requests
-from minsearch import Index
+import time
+# from minsearch import Index
+from sqlitesearch import TextSearchIndex
+
 
 
 def fetch_documents():
@@ -22,9 +25,25 @@ def fetch_documents():
 
 def build_index(documents):
     """Initializes and fits the search index with the provided documents."""
-    index = Index(
+    index = TextSearchIndex(
         text_fields=["question", "section", "answer"],  # full text search for matching keyword and also semantic search
-        keyword_fields=["course"]          # Exact matching only
+        keyword_fields=["course"],          # Exact matching only
+        db_path="faq.db"
     )
-    index.fit(documents)                   # Generated inverted index kind of DS for fast search operations
+
+    # # add all at once
+    # index.fit(documents)                   # Generated inverted index kind of DS for fast search operations
+
+    # Simulate real time add one record at a time
+    for doc in documents:
+        index.add(doc)
+        print(f"""Added: {doc["question"][:60]}...""")
+        time.sleep(0.5)
+
+    index.close()
+    print("Done. Index saved to faq.db")
+
+    
+    print(f"Number of documents = {index.count}")
     return index
+

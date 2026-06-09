@@ -16,6 +16,8 @@ venv.bak/
 backup/
 backup
 *.db
+*.db-shm
+*.db-wal
 
 # 12-SelfExtendingAgent_ADKGoogle
 test_ddg.py

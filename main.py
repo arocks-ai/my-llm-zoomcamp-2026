@@ -1,3 +1,4 @@
+from pathlib import Path
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
@@ -9,9 +10,13 @@ load_dotenv()
 # Initialize the Gemini client
 client = genai.Client()
 
-print("Initializing FAQ Assistant...")
-documents = fetch_documents()
-index = build_index(documents)
+# # Moved to Ingest phase
+# print("Initializing FAQ Assistant...")
+# documents = fetch_documents()
+# index = build_index(documents)
+
+
+
 
 
 INSTRUCTIONS = """
@@ -57,14 +62,28 @@ class RAGBase:
         boost_dict = {'question': 3.0, 'section': 0.4}  
         filter_dict = {'course': self.course}
 
-        # Get the Data source,, Used index instead of vector DB for now
 
-        return index.search(
-            query,
-            boost_dict=boost_dict,      # Weights adjustments, more weight for question,  1 for 100%
-            filter_dict=filter_dict,    # Filtering search (full match)
-            num_results=5               # Ranking
-        )
+
+        #Check how many documents are in the index:
+        print(f"Number of documents in the index: {self.index.count()}")
+        search_results = self.index.search(query, boost_dict=boost_dict, filter_dict=filter_dict, num_results=5)
+
+        # return self.index.search(
+        #     query,
+        #     boost_dict=boost_dict,      # Weights adjustments, more weight for question,  1 for 100%
+        #     filter_dict=filter_dict,    # Filtering search (full match)
+        #     num_results=5               # Ranking
+        # )
+
+        print("\n--- BEGIN - Search Top K Results from the datbase ---")
+        for result in search_results:
+            print("question = ",  result['question'])
+            print("answer = ", result['answer'])
+            print()
+        print("\n--- END - Search Top K Results from the datbase ---\n\n")
+
+        return search_results
+
 
     def build_context(self, search_results):
         """Converts search results into a formatted string for the LLM context."""
@@ -122,25 +141,49 @@ class RAGBase:
         answer = self.llm(prompt)
         return answer
 
+def connect_to_database():
+
+    from sqlitesearch import TextSearchIndex
+
+    db_name = "faq.db"
+    file_path = Path(db_name)
+
+    if not file_path.is_file():
+        print(f"ERROR.. {db_name} was not found. Check if Ingestion phase was completed or not..")    
+        exit
+
+    # Connect to DB
+    # Make sure ingestion is done before
+    sqlite_index = TextSearchIndex(
+        text_fields=["question", "section", "answer"],
+        keyword_fields=["course"],
+        db_path=db_name
+    )
+
+    return sqlite_index
 
 
 def main():
     """Main entry point to initialize the system and run a query."""
 
-    
+    sqlite_index= connect_to_database()
+
+
     # query = "How to get the course completion certificate?"
     # query = "When does the next course starts"
     # query = "Do I get certification after completion"
     # query = "Are there any lectures/videos? Where are they?"
     # query = "can I use google ADK for this course"       # not in FAQ
-    query = "can I use Groq or ollama for this course"
+    # query = "can I use Groq or ollama for this course"
+    query = "How do  I run Olama locally for this course"
     print(f"\nUser Question: {query}")
     
-    ragAssitant = RAGBase(index, client) 
+    ragAssitant = RAGBase(sqlite_index, client) 
     answer = ragAssitant.rag(query)
-    
-    print("\n--- Answer ---")
-    print(answer)
+
+    print("\n--- user Question and Final Answer ---")
+    print(f"\nUser Question: {query}")
+    print(f"Final Answer: {answer}")
 
 if __name__ == "__main__":
     main()

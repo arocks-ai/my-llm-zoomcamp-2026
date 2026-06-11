@@ -3,7 +3,9 @@ import time
 # from minsearch import Index
 from sqlitesearch import TextSearchIndex
 from gitsource import GithubRepositoryDataReader
-
+from gitsource import chunk_documents
+    
+    
 def fetch_documents():
     """Fetches course FAQ documents from the DataTalks.Club JSON API."""
 
@@ -71,14 +73,24 @@ def build_index(files):
         }
         documents.append(doc)
 
+    
+    # Chunk on contents only not on file name
+    chunks = chunk_documents(documents, size=2000, step=1000, content='content')
+    print("chunk count = ", len(chunks))
 
-    # Simulate real time, add one record at a time
-    for doc in documents:
-        index.add(doc)
-        print(f"""Added: {doc["content"][:60]}...""")
-        time.sleep(0.1)
+    # add all chunks at once
+    index.fit(chunks)                   # Generated inverted index kind of DS for fast search operations
 
-    print(f"Number of documents = {index.count}")
+    # add all documents at once
+    # index.fit(documents)
+
+    # # Simulate real time, add one record at a time
+    # for doc in documents:
+    #     index.add(doc)
+    #     print(f"""Added: {doc["content"][:60]}...""")
+    #     time.sleep(0.1)
+
+
     index.close()
     print("Done. Index saved to the database")
 

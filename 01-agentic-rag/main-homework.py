@@ -7,8 +7,7 @@ from ingest import fetch_documents, build_index
 # Load environment variables (GEMINI_API_KEY)
 load_dotenv()
 
-# Initialize the Gemini client
-client = genai.Client()
+
 
 # # Moved to Ingest phase
 # print("Initializing FAQ Assistant...")
@@ -19,7 +18,7 @@ client = genai.Client()
 
 INSTRUCTIONS = """
 You're a course teaching assistant.
-Answer the QUESTION based on the CONTEXT from the FAQ database.
+Answer the QUESTION based on the CONTEXT from the contents database.
 Use only the facts from the CONTEXT when answering the QUESTION.
 If the answer is not found in the context, respond with "I don't know."
 """.strip()
@@ -56,14 +55,16 @@ class RAGBase:
         Ranking -  based on top K (or top 5) results
         """
 
-        boost_dict = {'question': 3.0, 'section': 0.4}  
-        filter_dict = {'course': self.course}
+        # boost_dict = {'question': 3.0, 'section': 0.4}  
+        # filter_dict = {'course': self.course}
 
+        # #Check how many documents are in the index:
+        # print(f"Number of documents in the index: {self.index.count()}")
+        # search_results = self.index.search(query, boost_dict=boost_dict, filter_dict=filter_dict, num_results=5)
 
-
-        #Check how many documents are in the index:
         print(f"Number of documents in the index: {self.index.count()}")
-        search_results = self.index.search(query, boost_dict=boost_dict, filter_dict=filter_dict, num_results=5)
+        search_results = self.index.search(query, num_results=5)
+
 
         # return self.index.search(
         #     query,
@@ -72,12 +73,12 @@ class RAGBase:
         #     num_results=5               # Ranking
         # )
 
-        print("\n--- BEGIN - Search Top K Results from the datbase ---")
+        print("\n--- BEGIN - Search Top K Results from the database ---")
         for result in search_results:
-            print("question = ",  result['question'])
-            print("answer = ", result['answer'])
+            print("filename = ",  result['filename'])
+            # print("content = ", result['content'])
             print()
-        print("\n--- END - Search Top K Results from the datbase ---\n\n")
+        print("\n--- END - Search Top K Results from the database ---\n\n")
 
         return search_results
 
@@ -86,9 +87,9 @@ class RAGBase:
         """Converts search results into a formatted string for the LLM context."""
         lines = []
         for doc in search_results:
-            lines.append(doc["section"])
-            lines.append(f"Q: {doc['question']}")
-            lines.append(f"A: {doc['answer']}")
+            # lines.append(doc["section"])
+            lines.append(f"filename: {doc['filename']}")
+            lines.append(f"content: {doc['content']}")
             lines.append("")
         return "\n".join(lines).strip()
 
@@ -110,7 +111,7 @@ class RAGBase:
         #     contents=prompt,
         # )
 
-        response = client.models.generate_content(
+        response = self.llm_client.models.generate_content(
             contents=prompt,
             model=self.model,
             # THE FIX: Isolate your system prompt rules here
@@ -125,6 +126,8 @@ class RAGBase:
 
         # Calculate total cost based on Gemini 2.5 Flash-Lite pricing
         total_cost = (input_tokens * (0.10 / 1_000_000)) + (output_tokens * (0.40 / 1_000_000))
+        print(f"input_tokens = {input_tokens}")
+        print(f"output_tokens = {output_tokens}")
         print(f"API Cost for this call: ${total_cost:.8f}")
 
 
@@ -142,7 +145,7 @@ def connect_to_database():
 
     from sqlitesearch import TextSearchIndex
 
-    db_name = "faq.db"
+    db_name = "contents.db"
     file_path = Path(db_name)
 
     if not file_path.is_file():
@@ -162,6 +165,9 @@ def connect_to_database():
 
 def main():
     """Main entry point to initialize the system and run a query."""
+
+    # Initialize the Gemini client
+    client = genai.Client()
 
     sqlite_index= connect_to_database()
 

@@ -5,10 +5,10 @@
             "name": "Python: Debug main.py",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/main.py",
+            "program": "${workspaceFolder}/01-agentic-rag/ingest-homework.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "envFile": "${workspaceFolder}/.env"
+            "envFile": "${workspaceFolder}/01-agentic-rag/.env"
         }
     ]
 }
